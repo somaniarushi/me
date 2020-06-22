@@ -1,0 +1,88 @@
+# OVERRIDE #
+
+languageCode = "en-us"
+title = "AMKS"
+baseURL = "https://www.arushisomani.me"
+copyright = "amk © 2020"
+
+[params]
+  # This will show the twitter icon which will link to twitter.com/your-twitter-handle
+  # You can omit the @ symbol
+  twitter = "amksomani"
+  # This will show the github icon which will link to github.com/your-github-handle
+  # You can omit the @ symbol
+  github = "somaniarushi"
+
+
+# OVERRIDE #
+
+# DONT OVERRIDE #
+
+[[menu.main]]
+    identifier = "home"
+    name = "home"
+    title = "Home"
+    url = "/"
+    weight = "25"
+
+[[menu.main]]
+    identifier = "about"
+    name = "about me"
+    title = "About"
+    url = "/about"
+    weight = "30"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
+  weight = "100"
+
+[[menu.main]]
+  identifier = "linkedin"
+  name = "linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/arushisomani"
+  weight = "50"
+
+[[menu.main]]
+  identifier = "github"
+  name = "github"
+  title = "Github"
+  url = "https://github.com/somaniarushi"
+  weight = "50"
+
+[[menu.main]]
+  identifier = "resume"
+  name = "resume"
+  title = "Resume"
+  url = "/resume.pdf"
+  weight = "50"
+
+preserveTaxonomyNames = true
+disableToc = "false"
+
+[taxonomies]
+  tag = "tags"
+
+# DONT OVERRIDE #
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

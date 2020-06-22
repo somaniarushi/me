@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+
+  <title>Using Obscure CSS Notation For Dark Mode</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="On the path of finding the correct way of doing this, I stumbled upon a very wrong, very beautiful way.">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Using Obscure CSS Notation For Dark Mode" />
+  <meta name="twitter:description" content="On the path of finding the correct way of doing this, I stumbled upon a very wrong, very beautiful way."
+  />
+  <meta name="twitter:site" content="@amksomani" />
+  <meta name="twitter:creator" content="@amksomani" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.arushisomani.me"
+      },
+      "articleSection" : "blog",
+      "name" : "Using Obscure CSS Notation For Dark Mode",
+      "headline" : "Using Obscure CSS Notation For Dark Mode",
+      "description" : "On the path of finding the correct way of doing this, I stumbled upon a very wrong, very beautiful way.",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-06-16 20:50:10 -0700 PDT",
+      "dateModified" : "2020-06-16 20:50:10 -0700 PDT",
+      "url" : "https:\/\/www.arushisomani.me\/blog\/dark-mode-css\/",
+      "wordCount" : "338",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        <a  href="/">about</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+           href="/blog">blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title">Using Obscure CSS Notation For Dark Mode</h1>
+    <time datetime="2020-06-16 20:50:10 -0700 PDT" class="post__date"
+      >Jun 16 2020</time
+    >
+  </header>
+  <article class="post__content">
+    
+<p><strong><a href="/dark-mode">I&rsquo;ve written a more thorough take in react here</a>, which I recommend over this, but this one&rsquo;s too interesting to leave out.</strong></p>
+<p><strong>Fundamental Idea</strong>: use the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator">CSS + selector</a> to match sibling items with a checkbox label.</p>
+<p>First, let&rsquo;s set up the HTML file, importing a CSS file we&rsquo;ll set up later.</p>
+<pre><code>&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;
+            CS61A | Introduction
+        &lt;/title&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;&quot;&gt; ** Set Up Later **
+    &lt;/head&gt; 
+&lt;/html&gt;
+</code></pre><p>Then, let&rsquo;s add a checkbox in the body as our toggle.</p>
+<pre><code>&lt;html&gt;
+    &lt;head&gt; ... &lt;/head&gt;
+    &lt;body&gt;
+        &lt;input type=&quot;checkbox&quot; id=&quot;cb&quot; /&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Congratulations! We have a toggle that does nothing!</p>
+<p>Never fear, let&rsquo;s march on ahead. Now let&rsquo;s set up a division we&rsquo;ll call <code>wrapper</code> and a label for checkbox inside of it. This label is what we&rsquo;ll use to design our toggle.</p>
+<pre><code>&lt;html&gt;
+   &lt;head&gt; ... &lt;/head&gt;
+   &lt;body&gt;
+       &lt;input type=&quot;checkbox&quot; id=&quot;cb&quot; /&gt;
+
+       &lt;div id=&quot;wrapper&quot;&gt;
+           &lt;label id=&quot;toggler&quot; for=&quot;cb&quot;&gt;
+           &lt;/label&gt;
+       &lt;/div&gt;
+   &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Now, we&rsquo;ll add two spans into the label div –– one for the toggle outline, and the other for the toggle indicator.</p>
+<pre><code>&lt;html&gt;
+  &lt;head&gt; ... &lt;/head&gt;
+  &lt;body&gt;
+      &lt;input type=&quot;checkbox&quot; id=&quot;cb&quot; /&gt;
+
+      &lt;div id=&quot;wrapper&quot;&gt;
+          &lt;label id=&quot;toggler&quot; for=&quot;cb&quot;&gt;
+               &lt;span class=&quot;toggle-border&quot;&gt;
+                  &lt;span class=&quot;toggle-indicator&quot;&gt;&lt;/span&gt;
+              &lt;/span&gt;
+          &lt;/label&gt;
+      &lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>Quite boring till now. No worries! CSS is where the magic happens.</p>
+<p>Let&rsquo;s set up a css file now, and link it in the header of the HTML file that we&rsquo;d left blank earlier. <mark>(Don&rsquo;t forget!)</mark> Then, let&rsquo;s begin the css file by removing the standard checkbox.</p>
+<pre><code>#cb {
+    display: none;
+}
+</code></pre><p>Now let&rsquo;s set up the actual toggle.</p>
+<pre><code>  #toggler .toggle-border {
+    border: 1px solid #1e1f26;
+    width: 50px;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+    position: relative;
+  }
+
+  #toggler .toggle-indicator {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #1e1f26;
+    top: 2px;
+    left: 2px;
+    transition: all 0.3s ease-in-out;
+  }
+</code></pre><p>Very nice! We&rsquo;re setting up a curved border <code>.toggle-border</code> with a block display to prevent collapse. Then we set up a <code>.toggle-indicator</code> circle and position it properly. <a href="https://www.w3schools.com/cssref/pr_class_position.asp">The <code>position: relative</code> is important to make the <code>position: absolute</code> in toggle-indicator possible and position it comfortably.</a></p>
+
+
+    
+  </article>
+  
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://www.arushisomani.me/blog/dark-like-my-soul/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Implementing Dark Mode With Checkboxes</span>
+    </a>
+  
+
+  
+</div>
+
+</div>
+
+  </main>
+
+  
+<footer>
+  <div class="social-icons">
+  
+  <a class="social-icons__icon social-icons__icon--twitter" href="https://twitter.com/amksomani"></a>
+  
+  
+  <a class="social-icons__icon social-icons__icon--github" href="https://github.com/somaniarushi"></a>
+  
+</div>
+
+  <p>© 2020</p>
+</footer>
+
+
+  <script src="/js/index.js"></script>
+  
+<script src="/vendor/prism/prism.js"></script>
+
+</body>
+
+</html>

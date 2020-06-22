@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+
+  <title>Building A Popular Dark Mode NPM Package</title>
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="My contribution to making every website low light.">
+  <meta name="keywords" content="web-development , UI/UX-design , react , dark mode , toggle , tutorial , education">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Building A Popular Dark Mode NPM Package" />
+  <meta name="twitter:description" content="My contribution to making every website low light."
+  />
+  <meta name="twitter:site" content="@amksomani" />
+  <meta name="twitter:creator" content="@amksomani" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/blog.arushisomani.me"
+      },
+      "articleSection" : "blog",
+      "name" : "Building A Popular Dark Mode NPM Package",
+      "headline" : "Building A Popular Dark Mode NPM Package",
+      "description" : "My contribution to making every website low light.",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-06-17 00:00:00 \u002b0000 UTC",
+      "dateModified" : "2020-06-17 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/blog.arushisomani.me\/blog\/dark-like-my-soul\/",
+      "wordCount" : "532",
+      "keywords" : ["web-development", "UI\/UX-design", "react", "dark mode", "toggle", "tutorial", "education", "Blog"]
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  href="">about me</a>
+      </li>
+    
+      <li>
+        <a  href="https://github.com/somaniarushi">github</a>
+      </li>
+    
+      <li>
+        <a  href="https://www.linkedin.com/in/arushisomani">linkedin</a>
+      </li>
+    
+      <li>
+        <a  href="/resume.pdf">resume</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+           href="/blog">blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title">Building A Popular Dark Mode NPM Package</h1>
+    <time datetime="2020-06-17 00:00:00 &#43;0000 UTC" class="post__date"
+      >Jun 17 2020</time
+    >
+  </header>
+  <article class="post__content">
+    
+<p>I&rsquo;m always been a light mode person. I like the cleanliness of it.</p>
+<p>But I&rsquo;ve recently developed a fascination with dark mode. It&rsquo;s a feature which has been getting <a href="(https://in.mashable.com/tech/9192/heres-why-2019-was-the-year-of-dark-mode)">progressively more accepted</a> into the internet development community. The following products went low light in the last couple years: apple, facebook, youtube, instagram, twitter, gmail, slack, soundcloud, google chrome. <a href="darkmodelist.com">Here&rsquo;s a convenient exhaustive list.</a></p>
+<p>So I decided to add dark mode to one of my websites that <a href="http://arushisomani.me/lambda">I knew would get a lot of traction</a>. It led me to wonder if there was a way to abstract the idea of dark mode out of the project and generalize it.</p>
+<p>Thus was born a customizable, easy to implement <a href="https://npmjs.org/@asomani/darkmode">dark mode toggle in React.</a></p>
+<p>(If you don&rsquo;t want to use any framworks and wish to work with vanilla HTML, CSS and JS, I&rsquo;ve written a <a href="/blog/css-does-strange-things">pure(ish) CSS version</a> of the project as well.)</p>
+<h2 id="how-i-decided-the-default-palette">How I Decided The Default Palette<a class="anchor" href="#how-i-decided-the-default-palette">#</a></h2>
+<p>The palette for dark mode is not as simple as inverting all the colors –– it&rsquo;s very related to the <a href="https://material.io/design/color/dark-theme.html">fundamental idea of web app design.</a></p>
+<p>Imagine your webpage as a surface from which items stick out at certain heights. In light mode, the elevation of an object is decided by the darkness and spread of the shadow that it drops. In dark mode, the elevation is decided by the <strong>colour</strong> of the object. The lighter the object the greater its elevation.</p>
+<p>I didn&rsquo;t use black as all –– the default background is the shade #121212, also known as very dark grey.</p>
+<p><img src="/images/black-grey-comparison.png" alt="Comparison"></p>
+<p><strong>Notice how the right text looks bigger than the left one</strong> –– even though they&rsquo;re the same size. Think of it as projecting farther out of the screen. But why?</p>
+<blockquote>
+<p>It&rsquo;s all about the contrast.</p>
+</blockquote>
+<p>High contrast stands out more, but is harsh. Low contrast isn&rsquo;t eye-catching and blends together, but is much easier on the eyes. It&rsquo;s a zero sum game.</p>
+<p>For me, the solution was to take my white mode colours and reduce saturation by around 40%. <a href="/images/dark-mode-palette.png">Here&rsquo;s my palette.</a></p>
+<h2 id="how-it-works">How It Works<a class="anchor" href="#how-it-works">#</a></h2>
+<p>The switcher wraps all the children passed in with a wrapper whose style is set with an <code>!important</code>. This overrides the children&rsquo;s styles when dark mode is on.</p>
+<p>The user can pass in props for HTML primitives (h1, h2, code&hellip;) along with a other selectors (background, default-text, code-background&hellip;) for specific cases. Those get passed down to the dark mode stylesheet, which incorporates them as necessary. I like this approach because of how scalable it is –– I can add props as I go.</p>
+<p>The toggle is a <code>checkbox input</code> HTML primitive, with some fancy CSS over it. It&rsquo;s <code>onClick</code> method triggers a change in state –– which stores what mode it currently is. A re-render happens with a new mode, and <em>viola!</em> We have a new palette.</p>
+<p>Simple, right? I was surprised at how easy to implement it was as well.</p>
+<p><a href="https://npmjs.org/@asomani/darkmode">Now go install my darkmode</a> or <a href="https://arushisomani.me/darkmode">play with the demo</a> or <a href="https://www.github.com/somaniarushi/swallowtail">fork the github to make your own!</a></p>
+<h2 id="a-quick-conclusion">A Quick Conclusion<a class="anchor" href="#a-quick-conclusion">#</a></h2>
+<p>If I had to take one lesson from this experience, it would be this –– <strong>find your itch, and scratch it.</strong> You&rsquo;ll end up building something cool.</p>
+
+
+    
+  </article>
+  
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://blog.arushisomani.me/tags/web-development/">web-development</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://blog.arushisomani.me/tags/ui/ux-design/">ui/ux-design</a>
+    </li></ul>
+
+ <div class="pagination">
+  
+    <a class="pagination__item" href="https://blog.arushisomani.me/blog/hullo/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Hello World</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://blog.arushisomani.me/blog/css-does-strange-things/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Using Obscure CSS Notation For Dark Mode</a>
+    </a>
+  
+</div>
+
+</div>
+
+  </main>
+
+  
+<footer>
+  <div class="social-icons">
+  
+  <a class="social-icons__icon social-icons__icon--twitter" href="https://twitter.com/amksomani"></a>
+  
+  
+  <a class="social-icons__icon social-icons__icon--github" href="https://github.com/somaniarushi"></a>
+  
+</div>
+
+  <p>© 2020</p>
+</footer>
+
+
+  <script src="/js/index.js"></script>
+  
+<script src="/vendor/prism/prism.js"></script>
+
+</body>
+
+</html>
