@@ -1,5 +1,5 @@
-# The Variance Blog
+# Hey There 👋
 
-Setting up a place to deposit all my thoughts, powered by Hugo 🔥
+Setting up a place for me, powered by Hugo 🔥
 
-Credit to [Jake Wiesler](jakewiesler.com) for the theme inspiration. 
+###### Credit to [Jake Wiesler](jakewiesler.com) for the theme inspiration. 
