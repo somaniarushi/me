@@ -958,11 +958,25 @@ footer p {
   justify-content: center;
   padding: 0;
   margin: 0;
+  animation: 1s animate-wrap;
 }
 
 @media screen and (max-width: 1000px) 
 {
   #TableOfContents {
     display: none;
+  }
+}
+
+@keyframes animate-wrap {
+  0%{
+      opacity: 0;
+      transform: translate(0, 20px);
+  }
+  50%{
+      opacity: 0.8;
+  }
+  100%{
+      opacity: 1;
   }
 }
