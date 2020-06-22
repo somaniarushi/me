@@ -5,7 +5,7 @@ title: "About Me, Summer 2020 💪"
 ## Education
 I'm currently pursuing a dual degree in Computer Science and Economics with a minor in Astrophysics from the University of California, Berkeley. This summer, I'm taking CS70: Discreet Math and Probability Theory from Berkeley.
 
-## CS Education
+## Teaching
 I'm a big believer in the Feynmann Technique of learning –– that the best teacher is the best learner. I'm a teaching assistant for CS61A at Berkeley this summer, and am extremely excited to help students through a class I thoroughly enjoyed. [Here's my course website that I set up for my students.](https://arushisomani.me/cs61a)
 
 ## Entrepreneurship
