@@ -59,12 +59,6 @@ copyright = "amk © 2020"
   title = "Resume"
   url = "/resume.pdf"
   weight = "50"
-
-[[menu.main]]
-  identifier = "cs61a"
-  name = "cs61a"
-  title = "CS61A"
-  url = "https://cs61a.arushisomani.me"
   
 
 preserveTaxonomyNames = true

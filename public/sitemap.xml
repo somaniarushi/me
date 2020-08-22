@@ -3,42 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.arushisomani.me/</loc>
+    <loc>https://www.arushisomani.me/</loc>
+    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/blog/</loc>
+    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/tags/college/</loc>
+    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/blog/summer-2020-retrospective/</loc>
+    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/tags/</loc>
+    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/blog/css-does-strange-things/</loc>
     <lastmod>2020-06-16T20:50:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.arushisomani.me/blog/</loc>
+    <loc>https://www.arushisomani.me/tags/web-development/</loc>
     <lastmod>2020-06-16T20:50:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.arushisomani.me/tags/</loc>
-    <lastmod>2020-06-16T20:50:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.arushisomani.me/blog/css-does-strange-things/</loc>
-    <lastmod>2020-06-16T20:50:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.arushisomani.me/tags/web-development/</loc>
-    <lastmod>2020-06-16T20:50:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.arushisomani.me/blog/dark-like-my-soul/</loc>
+    <loc>https://www.arushisomani.me/blog/dark-like-my-soul/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.arushisomani.me/blog/hullo/</loc>
+    <loc>https://www.arushisomani.me/blog/hullo/</loc>
     <lastmod>2020-06-11T21:18:11-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.arushisomani.me/tags/ui/ux-design/</loc>
+    <loc>https://www.arushisomani.me/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.arushisomani.me/tags/ui/ux-design/</loc>
   </url>
   
 </urlset>

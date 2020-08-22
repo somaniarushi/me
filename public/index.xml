@@ -1,23 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | AMKS</title>
-    <link>https://blog.arushisomani.me/</link>
-    <description>Recent content on Blog | AMKS</description>
+    <title>AMKS</title>
+    <link>https://www.arushisomani.me/</link>
+    <description>Recent content on AMKS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2020</copyright>
-    <lastBuildDate>Tue, 16 Jun 2020 20:50:10 -0700</lastBuildDate>
+    <copyright>amk © 2020</copyright>
+    <lastBuildDate>Sat, 22 Aug 2020 09:04:49 -0700</lastBuildDate>
     
-	<atom:link href="https://blog.arushisomani.me/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.arushisomani.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Summer 2020 Retrospective</title>
+      <link>https://www.arushisomani.me/blog/summer-2020-retrospective/</link>
+      <pubDate>Sat, 22 Aug 2020 09:04:49 -0700</pubDate>
+      
+      <guid>https://www.arushisomani.me/blog/summer-2020-retrospective/</guid>
+      <description>Here&amp;rsquo;s a quick summary of what I did last summer!
+Education I took CS70: Discrete Math and Probability Theory, a class I really enjoyed! I think that taking the class in the summer was challenging and forced me to really consider what I wanted to spend time doing –– making tough decisions about attending discussions, lectures and so on.
+I also took CS375: Teaching Techniques for Computer Science, a discussion-based class for first-time teachers.</description>
+    </item>
+    
+    <item>
       <title>Using Obscure CSS Notation For Dark Mode</title>
-      <link>https://blog.arushisomani.me/blog/css-does-strange-things/</link>
+      <link>https://www.arushisomani.me/blog/css-does-strange-things/</link>
       <pubDate>Tue, 16 Jun 2020 20:50:10 -0700</pubDate>
       
-      <guid>https://blog.arushisomani.me/blog/css-does-strange-things/</guid>
+      <guid>https://www.arushisomani.me/blog/css-does-strange-things/</guid>
       <description>If you&amp;rsquo;re using any node-based framework, you can use the package I created instead. I also wrote about it.
 No Toggle Solution CSS provides a media query to let your website match the preference of the user.
 /* Other Styles Here */ ... @media (prefers-color-scheme: dark) { h1 { color: white; } /* Other Selector Style Updates */ ... } Toggle Solution Fundamental Idea: use the CSS + selector to match sibling items with a checkbox label.</description>
@@ -25,21 +36,21 @@ No Toggle Solution CSS provides a media query to let your website match the pref
     
     <item>
       <title>Building A Popular Dark Mode NPM Package</title>
-      <link>https://blog.arushisomani.me/blog/dark-like-my-soul/</link>
+      <link>https://www.arushisomani.me/blog/dark-like-my-soul/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blog.arushisomani.me/blog/dark-like-my-soul/</guid>
-      <description>I&amp;rsquo;m always been a light mode person. I like the cleanliness of it.
+      <guid>https://www.arushisomani.me/blog/dark-like-my-soul/</guid>
+      <description>I&amp;rsquo;ve always been a light mode person. I like the cleanliness of it.
 But I&amp;rsquo;ve recently developed a fascination with dark mode. It&amp;rsquo;s a feature which has been getting progressively more accepted into the internet development community. The following products went low light in the last couple years: apple, facebook, youtube, instagram, twitter, gmail, slack, soundcloud, google chrome. Here&amp;rsquo;s a convenient exhaustive list.
 So I decided to add dark mode to one of my websites that I knew would get a lot of traction.</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://blog.arushisomani.me/blog/hullo/</link>
+      <link>https://www.arushisomani.me/blog/hullo/</link>
       <pubDate>Thu, 11 Jun 2020 21:18:11 -0700</pubDate>
       
-      <guid>https://blog.arushisomani.me/blog/hullo/</guid>
+      <guid>https://www.arushisomani.me/blog/hullo/</guid>
       <description>What can I say? I&amp;rsquo;m big on tradition.
 Python def main(): print &amp;quot;Hello world!&amp;quot; if __name__ == __main__: main() Java public class Start { public static void main(String args[]) { System.out.println(&amp;quot;Hello world!&amp;quot;) } } HTML &amp;lt;HTML&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt; Start &amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;p&amp;gt; Hello world! &amp;lt;/p&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/HTML&amp;gt; Javascript const start = () =&amp;gt; (console.log(&amp;quot;Hello world!&amp;quot;)) React JS from &#39;react&#39; import React class Start extends React.Component { render() { return ( &amp;lt;p&amp;gt; Hello world!</description>
     </item>
