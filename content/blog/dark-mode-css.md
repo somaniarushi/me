@@ -5,7 +5,7 @@ slug: "css-does-strange-things"
 description: "On the path of finding the correct way of doing this, I stumbled upon a very wrong, very beautiful way."
 keywords: ["web-development", "vanilla", "css", "toggle", "tutorial", "teaching", "walkthrough"]
 draft: false
-tags: ["web-development"]
+tags: ["compsci", "web-development"]
 stylesheet: "post.css"
 ---
 
