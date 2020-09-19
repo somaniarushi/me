@@ -9,7 +9,7 @@ tags: ["college"]
 stylesheet: "post.css"
 ---
 
-Here's a quick summary of what I did last summer!
+Here's a quick summary of what I did last summer! [Here's what I'm doing right now.](/about/)
 
 ## Education
 I took [CS70: Discrete Math and Probability Theory](https://eecs70.org), a class I really enjoyed! I think that taking the class in the summer was challenging and forced me to really consider what I wanted to spend time doing –– making tough decisions about attending discussions, lectures and so on.   
