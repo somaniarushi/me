@@ -5,7 +5,7 @@ slug: "dark-like-my-soul"
 description: "My contribution to making every website low light."
 keywords: ["web-development", "UI/UX-design", "react", "dark mode", "toggle", "tutorial", "education"]
 draft: false
-tags: ["compsci", "web-development", "ui/ux-design"]
+tags: ["web-development", "ui/ux-design"]
 stylesheet: "post.css"
 ---
 

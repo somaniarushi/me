@@ -5,7 +5,7 @@ slug: "summer-2020-retrospective"
 description: "And that's what you missed on my life."
 keywords: ["college", "retrospect", "summer 2020"]
 draft: false
-tags: ["college"]
+tags: []
 stylesheet: "post.css"
 ---
 

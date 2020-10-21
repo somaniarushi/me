@@ -59,6 +59,13 @@ copyright = "amk © 2020"
   title = "Resume"
   url = "/resume.pdf"
   weight = "50"
+
+[[menu.main]]
+  identifier = "teaching"
+  name = "teaching"
+  title = "Teaching"
+  url = "/teaching"
+  weight = "50"
   
 
 preserveTaxonomyNames = true
