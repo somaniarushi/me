@@ -6,6 +6,7 @@ slug: "cs61a-control"
 keywords: []
 tags: ["cs61a"]
 stylesheet: "post.css"
+location: "Berkeley, USA"
 draft: false
 ---
 To understand everything that 61A is trying to teach you, its important to understand the fundamental idea that everything is based on –– **how are Python programs executed?**

@@ -6,5 +6,6 @@ description: "Ideas for learning better."
 keywords: []
 draft: true
 tags: []
+location: "Lucknow, India"
 stylesheet: "post.css"
 ---

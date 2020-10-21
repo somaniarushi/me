@@ -6,6 +6,7 @@ description: "Everything in CS begins the same way."
 keywords: ["hello world", "python", "tradition", "javascript", "java"]
 draft: false
 tags: []
+location: "San Jose, USA"
 stylesheet: "post.css"
 ---
 

@@ -6,6 +6,7 @@ description: "And that's what you missed on my life."
 keywords: ["college", "retrospect", "summer 2020"]
 draft: false
 tags: []
+location: "Lucknow, India"
 stylesheet: "post.css"
 ---
 

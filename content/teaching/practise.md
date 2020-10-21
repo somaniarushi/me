@@ -6,6 +6,7 @@ slug: "cs61a-practise"
 keywords: []
 tags: ["cs61a"]
 stylesheet: "post.css"
+location: "Berkeley, USA"
 draft: false
 ---
 

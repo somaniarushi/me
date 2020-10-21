@@ -6,5 +6,6 @@ slug: "types-of-apis"
 keywords: []
 tags: ["web-development"]
 stylesheet: "post.css"
+location: "Lucknow, India"
 draft: true
 ---

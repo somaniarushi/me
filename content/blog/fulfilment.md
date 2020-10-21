@@ -6,6 +6,7 @@ description: "And Other Ways of Measuring Life"
 keywords: []
 draft: true
 tags: []
+location: "Lucknow, India"
 stylesheet: "post.css"
 ---
 

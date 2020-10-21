@@ -689,10 +689,34 @@ pre[class*="language-"] {
   margin-top: 0;
 }
 
-.post__date {
+/* .post__date {
   color: #9b9b9b;
   font-size: .8rem;
+} */
+
+.post__details {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+  padding-top: 20px;
+  color: #9b9b9b;
+  padding-bottom: 10px;
 }
+
+.divider {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .post__details {
+    width: 90%;
+  }
+  .divider {
+    display: inline;
+  }
+}
+
 
 .cp_embed_wrapper {
   margin-top: 1.5rem
