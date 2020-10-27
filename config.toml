@@ -2,7 +2,7 @@
 
 languageCode = "en-us"
 title = "AMKS"
-baseURL = "https://www.arushisomani.me"
+baseURL = "https://www.amks.me"
 copyright = "amk © 2020"
 
 [params]
