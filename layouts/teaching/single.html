@@ -8,24 +8,25 @@
   <header class="post__header">
     <h1 class="post__title">{{.Title}}</h1>
    
+    <div class="post__details__wrapper">
+      <div class="post__details">
+        <time datetime="{{ .Date }}" class="post__date">
+          {{ .Date.Format "Jan 2 2006" }}
+        </time>
+        <span class="divider">|</span>
+        <div class="post__location">
+          {{.Params.Location}}
+        </div>
+        <span class="divider">|</span>
+        <div class="post__length">
+          {{ math.Round (div (countwords .Content) 100.0) }} minutes
+        </div>
+      </div>
+    </div>
   </header>
   <article class="post__content">
 
-    <div class="post__details__wrapper">
-    <div class="post__details">
-      <time datetime="{{ .Date }}" class="post__date">
-        {{ .Date.Format "Jan 2 2006" }}
-      </time>
-      <span class="divider">|</span>
-      <div class="post__location">
-        {{.Params.Location}}
-      </div>
-      <span class="divider">|</span>
-      <div class="post__length">
-        {{ math.Round (div (countwords .Content) 100.0) }} minutes
-      </div>
-    </div>
-  </div>
+  
     {{ partial "anchored-headings.html" .Content }}
     {{ if or .Params.math .Site.Params.math }}
       {{ partial "math.html" . }}

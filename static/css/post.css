@@ -697,11 +697,13 @@ pre[class*="language-"] {
 .post__details {
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 50%;
   justify-content: space-between;
-  padding-top: 20px;
+  font-size: .9rem;
+  padding-top: 15px;
   color: #9b9b9b;
   padding-bottom: 10px;
+
 }
 
 .divider {
@@ -712,9 +714,9 @@ pre[class*="language-"] {
   .post__details {
     width: 90%;
   }
-  .divider {
+  /* .divider {
     display: inline;
-  }
+  } */
 }
 
 
@@ -784,12 +786,15 @@ pre[class*="language-"] {
   padding: .2em .4em;
   border-radius: 3px;
   background: #e7f4ff;
-  color: #134afe;
+  /* color: #134afe; */
+  color: #111;
   font-size: .8rem;
 }
 
+
 .tag__link:hover {
-  background: #d2e7ff
+  background: #d2e7ff;
+  color: #6e6e6e;
 }
 
 .gif {
