@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on AMKS</title>
-    <link>https://www.arushisomani.me/tags/</link>
+    <link>https://www.amks.me/tags/</link>
     <description>Recent content in Tags on AMKS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Sat, 22 Aug 2020 09:04:49 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2020 14:52:27 -0700</lastBuildDate>
     
-	<atom:link href="https://www.arushisomani.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.amks.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>college</title>
-      <link>https://www.arushisomani.me/tags/college/</link>
-      <pubDate>Sat, 22 Aug 2020 09:04:49 -0700</pubDate>
+      <title>cs61a</title>
+      <link>https://www.amks.me/tags/cs61a/</link>
+      <pubDate>Wed, 21 Oct 2020 14:52:27 -0700</pubDate>
       
-      <guid>https://www.arushisomani.me/tags/college/</guid>
+      <guid>https://www.amks.me/tags/cs61a/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web-development</title>
-      <link>https://www.arushisomani.me/tags/web-development/</link>
-      <pubDate>Tue, 16 Jun 2020 20:50:10 -0700</pubDate>
+      <link>https://www.amks.me/tags/web-development/</link>
+      <pubDate>Sat, 17 Oct 2020 17:49:51 -0700</pubDate>
       
-      <guid>https://www.arushisomani.me/tags/web-development/</guid>
+      <guid>https://www.amks.me/tags/web-development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>UI/UX-design</title>
-      <link>https://www.arushisomani.me/tags/ui/ux-design/</link>
+      <title>ui/ux-design</title>
+      <link>https://www.amks.me/tags/ui/ux-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.arushisomani.me/tags/ui/ux-design/</guid>
+      <guid>https://www.amks.me/tags/ui/ux-design/</guid>
       <description></description>
     </item>
     

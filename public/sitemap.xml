@@ -3,56 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.arushisomani.me/</loc>
+    <loc>https://www.amks.me/</loc>
+    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/tags/cs61a/</loc>
+    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/teaching/cs61a-practise/</loc>
+    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/tags/</loc>
+    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/teaching/</loc>
+    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/teaching/apis/</loc>
+    <lastmod>2020-10-17T17:49:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/tags/web-development/</loc>
+    <lastmod>2020-10-17T17:49:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/teaching/cs61a-control/</loc>
+    <lastmod>2020-10-17T17:33:05-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/blog/</loc>
     <lastmod>2020-08-22T09:04:49-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/blog/</loc>
+    <loc>https://www.amks.me/blog/summer-2020-retrospective/</loc>
     <lastmod>2020-08-22T09:04:49-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/tags/college/</loc>
-    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.arushisomani.me/blog/summer-2020-retrospective/</loc>
-    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.arushisomani.me/tags/</loc>
-    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.arushisomani.me/blog/css-does-strange-things/</loc>
+    <loc>https://www.amks.me/blog/css-does-strange-things/</loc>
     <lastmod>2020-06-16T20:50:10-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/tags/web-development/</loc>
-    <lastmod>2020-06-16T20:50:10-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.arushisomani.me/blog/dark-like-my-soul/</loc>
+    <loc>https://www.amks.me/blog/dark-like-my-soul/</loc>
     <lastmod>2020-06-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/blog/hullo/</loc>
+    <loc>https://www.amks.me/blog/hullo/</loc>
     <lastmod>2020-06-11T21:18:11-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/about/</loc>
+    <loc>https://www.amks.me/about/</loc>
   </url>
   
   <url>
-    <loc>https://www.arushisomani.me/tags/ui/ux-design/</loc>
+    <loc>https://www.amks.me/tags/ui/ux-design/</loc>
   </url>
   
 </urlset>
