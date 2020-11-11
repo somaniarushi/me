@@ -2,7 +2,7 @@
 title: "Using Obscure CSS Notation For Dark Mode"
 date: 2020-06-16T20:50:10-07:00
 slug: "css-does-strange-things"
-description: "On the path of finding the correct way of doing this, I stumbled upon a very wrong, very beautiful way."
+description: "On the path of finding the correct way of doing this, I stumbled upon a very wrong way."
 keywords: ["web-development", "vanilla", "css", "toggle", "tutorial", "teaching", "walkthrough"]
 draft: false
 location: "Berkeley, USA"
