@@ -12,6 +12,8 @@ copyright = "amk © 2020"
   # This will show the github icon which will link to github.com/your-github-handle
   # You can omit the @ symbol
   github = "somaniarushi"
+  sitename = "amks"
+  description = "passionate maker of things and lover of teaching"
 
 
 # OVERRIDE #

@@ -4,11 +4,28 @@
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
-  <title>{{ .Page.Title }}</title>
+  <title>{{ .Page.Title }} | {{ .Site.Title }}</title>
+
+  <meta property="og:title" content="{{ .Page.Title }} | {{ .Site.Title }}" />
+  <meta name="twitter:title" content="{{ .Page.Title }} | {{ .Site.Title }}" />
+  <meta itemprop="name" content="{{ .Page.Title }} | {{ .Site.Title }}" />
+  <meta name="application-name" content="{{ .Page.Title }} | {{ .Site.Title }}" />
+  <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
+
 
   <meta charset="UTF-8">
   <meta name="language" content="en">
   <meta name="description" content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}">
+  <meta itemprop="description" content="{{ if .IsHome}}{{ .Site.Params.Description }}{{ else }}{{.Page.Params.Description}}{{ end }}" />
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+
+  <base href="{{ .Site.Params.baseURL }}">
+  <link rel="canonical" href="{{ .Site.Params.baseURL }}" itemprop="url" /> 
+  <meta name="url" content="{{ .Site.Params.baseURL }}" />
+  <meta name="twitter:url" content="{{ .Site.Params.baseURL }}" /> 
+  <meta property="og:url" content="{{ .Site.Params.baseURL }}" />
+  
   <meta name="keywords" content="{{ delimit .Keywords " , " }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
