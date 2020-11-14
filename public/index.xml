@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Wed, 21 Oct 2020 14:52:27 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2020 05:31:37 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making My Own Clipboard</title>
+      <link>https://www.amks.me/blog/clipboard/</link>
+      <pubDate>Sat, 07 Nov 2020 05:31:37 -0800</pubDate>
+      
+      <guid>https://www.amks.me/blog/clipboard/</guid>
+      <description>Last weekend, I made a private clipboard. You can play with it here and I explain the process of making it in this blog!
+⌘+C. ⌘+V. I do this way too many times a day, at an instinctual level. I don&amp;rsquo;t know when I learned how to copy and paste, but it certainly feels like I&amp;rsquo;ve known it all my life. The clipboard is probably the most widely used shortcut on the keyboard.</description>
+    </item>
     
     <item>
       <title>How To Practise For CS Classes</title>

@@ -4,7 +4,27 @@
   
   <url>
     <loc>https://www.amks.me/</loc>
-    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
+    <lastmod>2020-11-07T05:31:37-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/blog/</loc>
+    <lastmod>2020-11-07T05:31:37-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/blog/clipboard/</loc>
+    <lastmod>2020-11-07T05:31:37-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/tags/</loc>
+    <lastmod>2020-11-07T05:31:37-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.amks.me/tags/web-development/</loc>
+    <lastmod>2020-11-07T05:31:37-08:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +34,6 @@
   
   <url>
     <loc>https://www.amks.me/teaching/cs61a-practise/</loc>
-    <lastmod>2020-10-21T14:52:27-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.amks.me/tags/</loc>
     <lastmod>2020-10-21T14:52:27-07:00</lastmod>
   </url>
   
@@ -33,18 +48,8 @@
   </url>
   
   <url>
-    <loc>https://www.amks.me/tags/web-development/</loc>
-    <lastmod>2020-10-17T17:49:51-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.amks.me/teaching/cs61a-control/</loc>
     <lastmod>2020-10-17T17:33:05-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.amks.me/blog/</loc>
-    <lastmod>2020-08-22T09:04:49-07:00</lastmod>
   </url>
   
   <url>
