@@ -529,7 +529,8 @@ pre[class*="language-"] {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  padding: 0 20px;
+  width: 300px;
+  padding: 0 8px;
   border: 1px solid #9b9b9b5f;
   font-size: 1rem;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -564,11 +565,11 @@ pre[class*="language-"] {
   text-shadow: 0 1px 3px rgba(36, 180, 126, 0.4);
   height: 32px;
   line-height: 32px;
-  -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 4px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  /* -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); */
+  /* box-shadow: 0 4px 4px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); */
   border: none;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 0.9em;
   padding: 0 14px;
   /* text-transform: uppercase; */
   letter-spacing: .025rem;
@@ -584,8 +585,8 @@ pre[class*="language-"] {
   cursor: pointer;
   -webkit-box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
-  -webkit-transform: translateY(-1px);
-  transform: translateY(-1px)
+  /* -webkit-transform: translateY(-1px); */
+  /* transform: translateY(-1px) */
 }
 
 .newsletter__subscribe-form-inputs--submit:focus {
