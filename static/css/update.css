@@ -499,7 +499,7 @@ pre[class*="language-"] {
 
 .newsletter__subscribe-form {
   position: relative;
-  max-width: 450px;
+  max-width: 600px;
   margin: 1rem 0 0;
   padding-bottom: 2rem;
   /* text-align: center */
