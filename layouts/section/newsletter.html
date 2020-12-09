@@ -17,14 +17,17 @@
   </article>
   <br>
   <div class="newsletter__subscribe-form">
-    <form
-        name="newsletter"
-        method="POST"
-        data-netlify="true" class="newsletter__subscribe-form-inputs">
-                <input name="form-name" value="contact" type="hidden" />
-                <label for="email"></label><input required name="email" type="email" placeholder="email@yours.com" class="newsletter__subscribe-form-inputs--email"/>
-                <button type="submit" name="submit" class="newsletter__subscribe-form-inputs--submit">Sign Me Up!</button>
-        </form>
+    <form name="contact" method="POST" data-netlify="true">
+    <p>
+      <label>Your Email: <input type="email" name="email" placeholder="Email" /></label>
+    </p>
+    <p>
+      <label>Message: <textarea name="message" placeholder="Message"></textarea></label>
+    </p>
+    <p>
+      <button type="submit">Send</button>
+    </p>
+  </form>
     </div>
 </div>
 </div>
