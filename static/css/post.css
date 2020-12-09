@@ -653,7 +653,8 @@ pre[class*="language-"] {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
-  display: block
+  display: block;
+  border-radius: 3px;
 }
 
 .post__content a {

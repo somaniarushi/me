@@ -1,7 +1,7 @@
 ---
 title: "Summer 2020 Retrospective"
 date: 2020-08-22T09:04:49-07:00
-slug: "summer-2020-retrospective"
+slug: "summer20"
 description: "And that's what you missed on my life."
 keywords: ["college", "retrospect", "summer 2020"]
 draft: false
