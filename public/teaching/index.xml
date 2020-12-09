@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Wed, 21 Oct 2020 14:52:27 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 18:02:07 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What, Really, Are Promises?</title>
+      <link>https://www.amks.me/teaching/promises/</link>
+      <pubDate>Tue, 08 Dec 2020 18:02:07 -0800</pubDate>
+      
+      <guid>https://www.amks.me/teaching/promises/</guid>
+      <description>Recently, I was asked to recreate the Promise class in one of my interviews. I was taken aback by the question, and it took me a good couple minutes before I cooked up some form of an answer. Big fail.
+This is my redemption. Let&amp;rsquo;s go ahead and write a minified version of the Promise class.
+The Promise Class: A Quick Recap If you&amp;rsquo;re unfamiliar with Promises, I&amp;rsquo;d highly consider checking out this wonderful guide.</description>
+    </item>
     
     <item>
       <title>How To Practise For CS Classes</title>

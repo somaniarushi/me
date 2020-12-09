@@ -242,6 +242,7 @@ pre code {
   background: #fff;
   visibility: hidden;
   z-index: 1;
+  left: 20px;
 }
 
 @media screen and (min-width:800px) {
@@ -499,9 +500,9 @@ pre[class*="language-"] {
 .newsletter__subscribe-form {
   position: relative;
   max-width: 450px;
-  margin: 3rem auto 0;
+  margin: 1rem 0 0;
   padding-bottom: 2rem;
-  text-align: center
+  /* text-align: center */
 }
 
 .newsletter__subscribe-form-inputs {
@@ -523,14 +524,15 @@ pre[class*="language-"] {
 .newsletter__subscribe-form-inputs--email {
   height: 32px;
   color: #717171;
-  border-radius: 24px;
+  border-radius: 10px;
   margin-right: 12px;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
   padding: 0 20px;
-  border: 1px solid #9b9b9b;
+  border: 1px solid #9b9b9b5f;
   font-size: 1rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .newsletter__subscribe-form-inputs--email:focus {
@@ -538,7 +540,7 @@ pre[class*="language-"] {
 }
 
 .newsletter__subscribe-form-inputs--email::-webkit-input-placeholder {
-  color: #9b9b9b
+  color: #9b9b9b;
 }
 
 .newsletter__subscribe-form-inputs--email::-ms-input-placeholder {
@@ -557,24 +559,26 @@ pre[class*="language-"] {
 }
 
 .newsletter__subscribe-form-inputs--submit {
-  background: #9013fe;
+  background: rgba(0, 162, 255, 0.801);
   color: #fff;
   text-shadow: 0 1px 3px rgba(36, 180, 126, 0.4);
   height: 32px;
   line-height: 32px;
   -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 4px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   border: none;
-  border-radius: 24px;
+  border-radius: 10px;
   font-size: 14px;
   padding: 0 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   letter-spacing: .025rem;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   -webkit-transition: all 150ms ease;
   transition: all 150ms ease;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 .newsletter__subscribe-form-inputs--submit:hover {
   cursor: pointer;

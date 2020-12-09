@@ -35,6 +35,13 @@ copyright = "amk © 2020"
     weight = "30"
 
 [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    title = "Projects"
+    url = "/projects"
+    weight = "40"
+
+[[menu.main]]
   identifier = "blog"
   name = "blog"
   title = "Blog"
@@ -68,6 +75,13 @@ copyright = "amk © 2020"
   title = "Teaching"
   url = "/teaching"
   weight = "50"
+
+[[menu.main]]
+  identifier = "newsletter"
+  name = "newsletter"
+  title = "Newsletter"
+  url = "/newsletter"
+  weight = "100"
   
 
 preserveTaxonomyNames = true

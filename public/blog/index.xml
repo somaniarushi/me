@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Sat, 07 Nov 2020 05:31:37 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 19:32:26 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Beatlemania: Please Please Me</title>
+      <link>https://www.amks.me/blog/beatles1/</link>
+      <pubDate>Tue, 08 Dec 2020 19:32:26 -0800</pubDate>
+      
+      <guid>https://www.amks.me/blog/beatles1/</guid>
+      <description>I love music. And I&amp;rsquo;m also a music noob. I think it&amp;rsquo;s high time to change that. Starting, of course, with the best music band of all time.
+Let&amp;rsquo;s start from the beginning &amp;ndash; their first album, Please Please Me. Here&amp;rsquo;s my unfiltered thoughts, straight from my twitter.
+&amp;ldquo;I&amp;rsquo;m Just Here For Some Recommendations&amp;rdquo; And that&amp;rsquo;s completely cool! Here&amp;rsquo;s my top songs from this album: Love Me Do, Please Please Me, I Saw Her Standing There, Anna, and Twist And Shout.</description>
+    </item>
     
     <item>
       <title>Making My Own Clipboard</title>
@@ -24,10 +35,10 @@
     
     <item>
       <title>Summer 2020 Retrospective</title>
-      <link>https://www.amks.me/blog/summer-2020-retrospective/</link>
+      <link>https://www.amks.me/blog/summer20/</link>
       <pubDate>Sat, 22 Aug 2020 09:04:49 -0700</pubDate>
       
-      <guid>https://www.amks.me/blog/summer-2020-retrospective/</guid>
+      <guid>https://www.amks.me/blog/summer20/</guid>
       <description>Here&amp;rsquo;s a quick summary of what I did last summer! Here&amp;rsquo;s what I&amp;rsquo;m doing right now.
 Education I took CS70: Discrete Math and Probability Theory, a class I really enjoyed! I think that taking the class in the summer was challenging and forced me to really consider what I wanted to spend time doing –– making tough decisions about attending discussions, lectures and so on.
 I also took CS375: Teaching Techniques for Computer Science, a discussion-based class for first-time teachers.</description>
