@@ -4,7 +4,7 @@ description: "And Some Notes About How To Imagine The Interpreter"
 date: 2020-10-17T17:33:05-07:00
 slug: "cs61a-control"
 keywords: []
-tags: ["cs61a"]
+tags: ["cs61a", "teaching"]
 stylesheet: "post.css"
 location: "Berkeley, USA"
 draft: false

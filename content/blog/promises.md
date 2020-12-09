@@ -4,10 +4,10 @@ description: "Peeking Under The Hood of a Popular JS Class"
 date: 2020-12-08T18:02:07-08:00
 slug: "promises"
 keywords: []
-tags: ["cs61a"]
+tags: ["web-development", "teaching"]
 stylesheet: "post.css"
 location: "Lucknow, India"
-draft: false
+draft: true
 ---
 
 Recently, I was asked to recreate the Promise class in one of my interviews. I was taken aback by the question, and it took me a good couple minutes before I cooked up some form of an answer. Big fail.

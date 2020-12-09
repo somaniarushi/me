@@ -4,7 +4,7 @@ description: "Yes, there is a right approach."
 date: 2020-10-21T14:52:27-07:00
 slug: "cs61a-practise"
 keywords: []
-tags: ["cs61a"]
+tags: ["cs61a", "teaching"]
 stylesheet: "post.css"
 location: "Berkeley, USA"
 draft: false

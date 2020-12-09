@@ -4,7 +4,7 @@ description: "No REST for the wicked!"
 date: 2020-10-17T17:49:51-07:00
 slug: "apis"
 keywords: []
-tags: ["web-development"]
+tags: ["web-development", "teaching"]
 stylesheet: "post.css"
 location: "Lucknow, India"
 draft: false

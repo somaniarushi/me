@@ -4,7 +4,7 @@ description: "It's more complicated than you'd think."
 date: 2020-10-26T17:49:51-07:00
 slug: "restful"
 keywords: []
-tags: ["web-development"]
+tags: ["web-development", "teaching"]
 stylesheet: "post.css"
 location: "Lucknow, India"
 draft: true
