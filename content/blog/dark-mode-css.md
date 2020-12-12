@@ -1,7 +1,7 @@
 ---
-title: "Using Obscure CSS Notation For Dark Mode"
+title: "Pure CSS Solution For Dark Mode"
 date: 2020-06-16T20:50:10-07:00
-slug: "css-does-strange-things"
+slug: "dark-mode-css"
 description: "On the path of finding the correct way of doing this, I stumbled upon a very wrong way."
 keywords: ["web-development", "vanilla", "css", "toggle", "tutorial", "teaching", "walkthrough"]
 draft: false
@@ -59,7 +59,7 @@ First, let's set up the HTML file, a [checkbox](https://developer.mozilla.org/en
  ```
 Quite boring till now. No worries! CSS is where the magic happens. 
 
-Let's set up a css file now, and link it in the header of the HTML file that we'd left blank earlier. <mark>(Don't forget!)</mark> Then, let's begin the css file by removing the standard checkbox, and adding style to the label.
+Let's set up a css file now, and link it in the header of the HTML file that we'd left blank earlier. *(Don't forget!)* Then, let's begin the css file by removing the standard checkbox, and adding style to the label.
 ```
   #cb {
     display: none;

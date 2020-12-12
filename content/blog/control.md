@@ -9,6 +9,8 @@ stylesheet: "post.css"
 location: "Berkeley, USA"
 draft: false
 ---
+This is written for the class [CS61A: The Structure and Interpretation of Computer Programs](https://cs61a.org) at UC Berkeley.
+
 To understand everything that 61A is trying to teach you, its important to understand the fundamental idea that everything is based on –– **how are Python programs executed?**
 
 ## Direct Control Flow

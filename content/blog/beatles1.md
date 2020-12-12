@@ -5,7 +5,7 @@ slug: "beatles1"
 description: "Listening To Every Single Beatles Song. Join Me!"
 keywords: ["beatles", "music"]
 location: "Koorg, India"
-draft: false
+draft: true
 tags: ["music"]
 stylesheet: "post.css"
 ---

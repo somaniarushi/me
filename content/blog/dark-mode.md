@@ -1,7 +1,7 @@
 ---
-title: "Building A Popular Dark Mode NPM Package"
+title: "Building A Dark Mode NPM Package"
 date: 2020-06-17
-slug: "dark-like-my-soul"
+slug: "dark-mode"
 description: "My contribution to making every website low light."
 keywords: ["web-development", "UI/UX-design", "react", "dark mode", "toggle", "tutorial", "education"]
 draft: false
@@ -18,7 +18,7 @@ So I decided to add dark mode to one of my websites that [I knew would get a lot
 
 Thus was born a customizable, easy to implement [dark mode toggle in React.](https://npmjs.org/@asomani/darkmode)
 
-(If you don't want to use any framworks and wish to work with vanilla HTML, CSS and JS, I've written a [pure(ish) CSS version](/blog/css-does-strange-things) of the project as well.)
+(If you don't want to use any framworks and wish to work with vanilla HTML, CSS and JS, I've written a [pure(ish) CSS version](/blog/dark-mode-css) of the project as well.)
 
 ## How I Decided The Default Palette
 The palette for dark mode is not as simple as inverting all the colors –– it's very related to the [fundamental idea of web app design.](https://material.io/design/color/dark-theme.html)
@@ -46,11 +46,4 @@ The user can pass in props for HTML primitives (h1, h2, code...) along with a ot
 
 The toggle is a `checkbox input` HTML primitive, with some fancy CSS over it. It's `onClick` method triggers a change in state –– which stores what mode it currently is. A re-render happens with a new mode, and _viola!_ We have a new palette.
 
-Simple, right? I was surprised at how easy to implement it was as well.
-
-[Now go install my darkmode](https://npmjs.org/@asomani/darkmode) or [play with the demo](https://arushisomani.me/darkmode) or [fork the github to make your own!](https://www.github.com/somaniarushi/swallowtail)
-
-## A Quick Conclusion
-
-If I had to take one lesson from this experience, it would be this –– **find your itch, and scratch it.** You'll end up building something cool.
-
+[You can install my darkmode](https://npmjs.org/@asomani/darkmode) or [play with the demo](https://arushisomani.me/darkmode) or [fork the github to make your own!](https://www.github.com/somaniarushi/swallowtail)
