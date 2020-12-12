@@ -10,9 +10,9 @@ location: "Lucknow, India"
 draft: false
 ---
 
-This article assumes some familiarity with the concept of Promises. **If you're unfamiliar with Promises, I'd highly consider checking out [this wonderful guide](https://javascript.info/promise-basics).** 
-
 The Promise class is one of the most notoriously black-boxed tools in Javascript. *How* does the promise class manage asynchronicity, when Javascript is single-threaded?
+
+This article assumes some familiarity with the concept of Promises. **If you're unfamiliar with Promises, I'd highly consider checking out [this wonderful guide](https://javascript.info/promise-basics).** 
 
 I made a small Promise class to try to understand. The complete implementation [is at the end](#bringing-it-all-together) of this article.
 
