@@ -12,9 +12,11 @@ draft: false
 
 The Promise class is one of the most notoriously black-boxed tools in Javascript. *How* does the promise class manage asynchronicity, when Javascript is single-threaded?
 
+I made a small Promise class to try to understand. The complete implementation [is at the end](#bringing-it-all-together) of this article.
+
 This article assumes some familiarity with the concept of Promises. **If you're unfamiliar with Promises, I'd highly consider checking out [this wonderful guide](https://javascript.info/promise-basics).** 
 
-I made a small Promise class to try to understand. The complete implementation [is at the end](#bringing-it-all-together) of this article.
+
 
 ## The Specification
 To focus on core concepts, we'll assume that our Promises always resolve and return a value. In other words, we won't be handling rejections and errors.
