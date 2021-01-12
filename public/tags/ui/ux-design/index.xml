@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Building A Popular Dark Mode NPM Package</title>
-      <link>https://www.amks.me/blog/dark-like-my-soul/</link>
+      <title>Building A Dark Mode NPM Package</title>
+      <link>https://www.amks.me/blog/dark-mode/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.amks.me/blog/dark-like-my-soul/</guid>
+      <guid>https://www.amks.me/blog/dark-mode/</guid>
       <description>I&amp;rsquo;ve always been a light mode person. I like the cleanliness of it.
 But I&amp;rsquo;ve recently developed a fascination with dark mode. It&amp;rsquo;s a feature which has been getting progressively more accepted into the internet development community. The following products went low light in the last couple years: apple, facebook, youtube, instagram, twitter, gmail, slack, soundcloud, google chrome. Here&amp;rsquo;s a convenient exhaustive list.
 So I decided to add dark mode to one of my websites that I knew would get a lot of traction.</description>

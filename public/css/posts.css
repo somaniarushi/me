@@ -377,7 +377,14 @@ main {
 .post-list {
   list-style: none;
   margin: 0;
-  padding: 0
+  padding: 0;
+  padding-left: 50px;
+}
+
+@media screen and (max-width:800px) {
+  .post-list {
+    padding-left: 0;
+  }
 }
 
 .post {

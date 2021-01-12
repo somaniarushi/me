@@ -7,35 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 19:32:26 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 08 Dec 2020 18:02:07 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>music</title>
-      <link>https://www.amks.me/tags/music/</link>
-      <pubDate>Tue, 08 Dec 2020 19:32:26 -0800</pubDate>
-      
-      <guid>https://www.amks.me/tags/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cs61a</title>
-      <link>https://www.amks.me/tags/cs61a/</link>
+      <title>teaching</title>
+      <link>https://www.amks.me/tags/teaching/</link>
       <pubDate>Tue, 08 Dec 2020 18:02:07 -0800</pubDate>
       
-      <guid>https://www.amks.me/tags/cs61a/</guid>
+      <guid>https://www.amks.me/tags/teaching/</guid>
       <description></description>
     </item>
     
     <item>
       <title>web-development</title>
       <link>https://www.amks.me/tags/web-development/</link>
-      <pubDate>Sat, 07 Nov 2020 05:31:37 -0800</pubDate>
+      <pubDate>Tue, 08 Dec 2020 18:02:07 -0800</pubDate>
       
       <guid>https://www.amks.me/tags/web-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cs61a</title>
+      <link>https://www.amks.me/tags/cs61a/</link>
+      <pubDate>Wed, 21 Oct 2020 14:52:27 -0700</pubDate>
+      
+      <guid>https://www.amks.me/tags/cs61a/</guid>
       <description></description>
     </item>
     

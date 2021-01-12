@@ -7,20 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 19:32:26 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 14 Dec 2020 14:35:06 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Beatlemania: Please Please Me</title>
-      <link>https://www.amks.me/blog/beatles1/</link>
-      <pubDate>Tue, 08 Dec 2020 19:32:26 -0800</pubDate>
+      <title>Fall 2020 Retrospective</title>
+      <link>https://www.amks.me/blog/fall20/</link>
+      <pubDate>Mon, 14 Dec 2020 14:35:06 -0800</pubDate>
       
-      <guid>https://www.amks.me/blog/beatles1/</guid>
-      <description>I love music. And I&amp;rsquo;m also a music noob. I think it&amp;rsquo;s high time to change that. Starting, of course, with the best music band of all time.
-Let&amp;rsquo;s start from the beginning &amp;ndash; their first album, Please Please Me. Here&amp;rsquo;s my unfiltered thoughts, straight from my twitter.
-&amp;ldquo;I&amp;rsquo;m Just Here For Some Recommendations&amp;rdquo; And that&amp;rsquo;s completely cool! Here&amp;rsquo;s my top songs from this album: Love Me Do, Please Please Me, I Saw Her Standing There, Anna, and Twist And Shout.</description>
+      <guid>https://www.amks.me/blog/fall20/</guid>
+      <description>For anyone reading this in the distant future, hello! This article was written in the strange times of the coronavirus. All of humanity has been socially isolated and &amp;ldquo;working from home&amp;rdquo; for over nine months at present time. Dystopia is dreadfully boring.
+No matter! There are still things that happened this semester. He&amp;rsquo;s a quick summary of what happened in the fall of 2020. Read about what I&amp;rsquo;m currently doing.</description>
+    </item>
+    
+    <item>
+      <title>Recreating Promises in Javascript</title>
+      <link>https://www.amks.me/blog/promises/</link>
+      <pubDate>Tue, 08 Dec 2020 18:02:07 -0800</pubDate>
+      
+      <guid>https://www.amks.me/blog/promises/</guid>
+      <description>The Promise class is one of the most notoriously black-boxed tools in Javascript. How does the promise class manage asynchronicity, when Javascript is single-threaded?
+I made a small Promise class to try to understand. The complete implementation is at the end of this article.
+This article assumes some familiarity with the concept of Promises. If you&amp;rsquo;re unfamiliar with Promises, I&amp;rsquo;d highly consider checking out this wonderful guide.
+The Specification To focus on core concepts, we&amp;rsquo;ll assume that our Promises always resolve and return a value.</description>
     </item>
     
     <item>
@@ -34,33 +45,66 @@ Let&amp;rsquo;s start from the beginning &amp;ndash; their first album, Please P
     </item>
     
     <item>
+      <title>How To Practise For CS Classes</title>
+      <link>https://www.amks.me/blog/cs61a-practise/</link>
+      <pubDate>Wed, 21 Oct 2020 14:52:27 -0700</pubDate>
+      
+      <guid>https://www.amks.me/blog/cs61a-practise/</guid>
+      <description>So, you wanna do practise questions? That&amp;rsquo;s great! I&amp;rsquo;m glad you&amp;rsquo;re actively engaging with the material and trying to do better.
+However, there&amp;rsquo;s a pitfall to doing practise questions that I want you to be aware of.
+Just Doing Practise Questions Is Harmful The way I started doing practise tests was quite straightforward. Print the exam, do it best I could, then check answers for where there were mistakes. Try not to make those mistakes again.</description>
+    </item>
+    
+    <item>
+      <title>Types of APIs</title>
+      <link>https://www.amks.me/blog/apis/</link>
+      <pubDate>Sat, 17 Oct 2020 17:49:51 -0700</pubDate>
+      
+      <guid>https://www.amks.me/blog/apis/</guid>
+      <description>If you&amp;rsquo;re at all interested in back-end web development, then you&amp;rsquo;ve heard of APIs –– but what are they really?
+What are APIs? Imagine that we want to make available data about movies. getLastBlockbuster() returns the last big cinema hit, movieRating(&#39;Parasite&#39;) returns the imdb rating of the movie Parasite, and so on. This would be a very cool tool to give movie enthusiasts! So you go ahead and write this. How do we make this available to users?</description>
+    </item>
+    
+    <item>
+      <title>How Does Control Flow In Python?</title>
+      <link>https://www.amks.me/blog/cs61a-control/</link>
+      <pubDate>Sat, 17 Oct 2020 17:33:05 -0700</pubDate>
+      
+      <guid>https://www.amks.me/blog/cs61a-control/</guid>
+      <description>This is written for the class CS61A: The Structure and Interpretation of Computer Programs at UC Berkeley.
+To understand everything that 61A is trying to teach you, its important to understand the fundamental idea that everything is based on –– how are Python programs executed?
+Direct Control Flow In the simplest of functions, control simply flows downward.
+a = 3 print(a) # prints 3 The reason this works is because the control goes up to down –– 3 is bound to a, and then looked up in line 2.</description>
+    </item>
+    
+    <item>
       <title>Summer 2020 Retrospective</title>
       <link>https://www.amks.me/blog/summer20/</link>
       <pubDate>Sat, 22 Aug 2020 09:04:49 -0700</pubDate>
       
       <guid>https://www.amks.me/blog/summer20/</guid>
-      <description>Here&amp;rsquo;s a quick summary of what I did last summer! Here&amp;rsquo;s what I&amp;rsquo;m doing right now.
-Education I took CS70: Discrete Math and Probability Theory, a class I really enjoyed! I think that taking the class in the summer was challenging and forced me to really consider what I wanted to spend time doing –– making tough decisions about attending discussions, lectures and so on.
+      <description>This is a quick summary of what I did last summer, with some insights thrown in for good measure. Here&amp;rsquo;s what I&amp;rsquo;m doing right now.
+Education I took CS70: Discrete Math and Probability Theory! Taking the class in the summer was challenging and forced me to really consider what I wanted to spend time doing –– making tough decisions about attending discussions, lectures and so on.
 I also took CS375: Teaching Techniques for Computer Science, a discussion-based class for first-time teachers.</description>
     </item>
     
     <item>
-      <title>Using Obscure CSS Notation For Dark Mode</title>
-      <link>https://www.amks.me/blog/css-does-strange-things/</link>
+      <title>Pure CSS Solution For Dark Mode</title>
+      <link>https://www.amks.me/blog/dark-mode-css/</link>
       <pubDate>Tue, 16 Jun 2020 20:50:10 -0700</pubDate>
       
-      <guid>https://www.amks.me/blog/css-does-strange-things/</guid>
+      <guid>https://www.amks.me/blog/dark-mode-css/</guid>
       <description>If you&amp;rsquo;re using any node-based framework, you can use the package I created instead. I also wrote about it.
 No Toggle Solution CSS provides a media query to let your website match the preference of the user.
 /* Other Styles Here */ ... @media (prefers-color-scheme: dark) { h1 { color: white; } /* Other Selector Style Updates */ ... } Toggle Solution Fundamental Idea: use the CSS + selector to match sibling items with a checkbox label.</description>
     </item>
     
     <item>
-      <title>Building A Popular Dark Mode NPM Package</title>
-      <link>https://www.amks.me/blog/dark-like-my-soul/</link>
+      <title>Building A Dark Mode NPM Package</title>
+      <link>https://www.amks.me/blog/dark-mode/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.amks.me/blog/dark-like-my-soul/</guid>
+      <guid>https://www.amks.me/blog/dark-mode/</guid>
       <description>I&amp;rsquo;ve always been a light mode person. I like the cleanliness of it.
 But I&amp;rsquo;ve recently developed a fascination with dark mode. It&amp;rsquo;s a feature which has been getting progressively more accepted into the internet development community. The following products went low light in the last couple years: apple, facebook, youtube, instagram, twitter, gmail, slack, soundcloud, google chrome. Here&amp;rsquo;s a convenient exhaustive list.
 So I decided to add dark mode to one of my websites that I knew would get a lot of traction.</description>

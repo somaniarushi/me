@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+
+  <title>Recreating Promises in Javascript | AMKS</title>
+
+  <meta property="og:title" content="Recreating Promises in Javascript | AMKS" />
+  <meta name="twitter:title" content="Recreating Promises in Javascript | AMKS" />
+  <meta itemprop="name" content="Recreating Promises in Javascript | AMKS" />
+  <meta name="application-name" content="Recreating Promises in Javascript | AMKS" />
+  <meta property="og:site_name" content="amks" />
+
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="Peeking Under The Hood of a Popular JS Class">
+  <meta itemprop="description" content="Peeking Under The Hood of a Popular JS Class" />
+  <meta property="og:description" content="Making the things that help other people make things. Sophomore at UC Berkeley passionate about CS, Economics, Astrophysics and Entrepreneurship." />
+  <meta name="twitter:description" content="Making the things that help other people make things. Sophomore at UC Berkeley passionate about CS, Economics, Astrophysics and Entrepreneurship." />
+
+  <base href="">
+  <link rel="canonical" href="" itemprop="url" /> 
+  <meta name="url" content="" />
+  <meta name="twitter:url" content="" /> 
+  <meta property="og:url" content="" />
+  
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Recreating Promises in Javascript" />
+  <meta name="twitter:description" content="Peeking Under The Hood of a Popular JS Class"
+  />
+  <meta name="twitter:site" content="@amksomani" />
+  <meta name="twitter:creator" content="@amksomani" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.amks.me"
+      },
+      "articleSection" : "blog",
+      "name" : "Recreating Promises in Javascript",
+      "headline" : "Recreating Promises in Javascript",
+      "description" : "Peeking Under The Hood of a Popular JS Class",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-12-08 18:02:07 -0800 PST",
+      "dateModified" : "2020-12-08 18:02:07 -0800 PST",
+      "url" : "https:\/\/www.amks.me\/blog\/promises\/",
+      "wordCount" : "974",
+      "keywords" : ["Blog"]
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  href="/about">about me</a>
+      </li>
+    
+      <li>
+        <a  href="/newsletter">newsletter</a>
+      </li>
+    
+      <li>
+        <a  href="https://github.com/somaniarushi">github</a>
+      </li>
+    
+      <li>
+        <a  href="https://www.linkedin.com/in/arushisomani">linkedin</a>
+      </li>
+    
+      <li>
+        <a  href="/resume.pdf">resume</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+           href="/blog">blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title">Recreating Promises in Javascript</h1>
+   
+  </header>
+  <article class="post__content">
+
+    <div class="post__details__wrapper">
+    <div class="post__details">
+      <time datetime="2020-12-08 18:02:07 -0800 PST" class="post__date">
+        Dec 8 2020
+      </time>
+      <span class="divider">|</span>
+      <div class="post__location">
+        Lucknow, India
+      </div>
+      <span class="divider">|</span>
+      <div class="post__length">
+        10 minutes
+      </div>
+    </div>
+  </div>
+    
+<p>The Promise class is one of the most notoriously black-boxed tools in Javascript. <em>How</em> does the promise class manage asynchronicity, when Javascript is single-threaded?</p>
+<p>I made a small Promise class to try to understand. The complete implementation <a href="#bringing-it-all-together">is at the end</a> of this article.</p>
+<p>This article assumes some familiarity with the concept of Promises. <strong>If you&rsquo;re unfamiliar with Promises, I&rsquo;d highly consider checking out <a href="https://javascript.info/promise-basics">this wonderful guide</a>.</strong></p>
+<h2 id="the-specification">The Specification<a class="anchor" href="#the-specification">#</a></h2>
+<p>To focus on core concepts, we&rsquo;ll assume that our Promises always resolve and return a value. In other words, we won&rsquo;t be handling rejections and errors.</p>
+<p>We of course want to be able to create a Promise object:</p>
+<pre><code>let promise = new Promise((res, rej) =&gt; setTimeout(() =&gt; res('done'), 1000));
+</code></pre><p>We also want to be able to act on that Promise object, using the <code>then</code> function. We&rsquo;ll restrict our then to fulfilled Promises only (accepting one parameter).</p>
+<pre><code>let res = (val) =&gt; alert(val);
+promise.then(res);
+</code></pre><p>Finally, we want to be able to chain <code>then</code>s together, to act on each of its predecessor&rsquo;s values.</p>
+<pre><code>promise.then(res).then(res).then(res);
+</code></pre><h2 id="the-skeleton">The Skeleton<a class="anchor" href="#the-skeleton">#</a></h2>
+<p>The bare bones:</p>
+<pre><code>class Promise {
+    constructor(executor) {
+        // do something
+    }
+
+    then(onFulfilled) {
+        // do something
+    }
+}
+</code></pre><p>Let&rsquo;s also write the <code>reject</code> and <code>resolve</code> function, which will be passed into the <code>executor</code> function.</p>
+<pre><code>class Promise {
+    constructor(executor) {
+        ...
+        this.outcome = null;
+        this.reject = this.reject.bind(this);
+        this.resolve = this.resolve.bind(this);
+
+        executor(this.resolve, this.reject);
+        ...
+    }
+
+    resolve(value) {
+        this.outcome = {status: 'fulfilled', value: value};
+    }
+
+    reject(error) {
+        this.outcome = {status: 'rejected', reason: error};
+    }
+    ...
+}
+</code></pre><p>Either <code>reject</code> or <code>resolve</code> will be called in the body of the executor. The called function will update the state of the Promise object by changing the value of <code>outcome</code>.</p>
+<blockquote>
+<p>We are achieving asynchronicity through callback functions.</p>
+</blockquote>
+<h2 id="the-then-function">The <code>then</code> Function<a class="anchor" href="#the-then-function">#</a></h2>
+<p>The <code>then</code> function accepts a function, and must always return a Promise. A naive version:</p>
+<pre><code>class Promise {
+    ...
+    then(onFulfilled) {
+        return new Promise((res, rej) =&gt; {
+            onFulfilled(this.outcome.value);
+        });
+    }
+    ...
+}
+</code></pre><p>The problem: if the <code>then</code> function is called, and the Promise is not settled, <code>this.outcome</code> will be null, and would cause an error. We may be able to manage this by checking if <code>outcome==null</code>. If it is <code>null</code>, we can set a wait time, after which we will check again.</p>
+<pre><code>class Promise {
+    ...
+    then(onFulfilled) {
+        if (this.outcome === null) {
+            setTimeout(() =&gt; then(onFulfilled), 10);
+        }
+        else {
+            return new Promise((res, rej) =&gt; onFulfilled(this.outcome.value));
+        }
+
+    }
+    ...
+}
+</code></pre><p>However, if <code>this.outcome == null</code>, we will end up with no return statement and the return value will be <code>undefined</code>. This breaks the specification we gave our <code>then</code> function:</p>
+<blockquote>
+<p>The then function must always return a Promise.</p>
+</blockquote>
+<h2 id="the-catch-22">The Catch 22<a class="anchor" href="#the-catch-22">#</a></h2>
+<p>The <code>then</code> function cannot create a Promise until the previous Promise has been settled. <strong>Thus, it has to wait.</strong></p>
+<p>The <code>then</code> function always has to return a Promise when it is called. <strong>Thus, it cannot wait.</strong></p>
+<p>A new Promise cannot be created until the previous one has been settled, but a Promise has to be returned. This leaves us only one choice.</p>
+<p><em>Return the Promise object we already have.</em></p>
+<pre><code>class Promise {
+    ...
+    then(onFulfilled) {
+        return this;
+    }
+    ...
+}
+</code></pre><p>The <code>then</code> function will usually be executed before the Promise settles. So, we can simply store the <code>onFulfilled</code> function in an instance variable and call for it on a later date.</p>
+<pre><code>class Promise {
+    constructor(executor) {
+        ...
+        this.thenFunction = null;
+    }
+    ...
+    then(onFulfilled) {
+        this.thenFunction = onFulfilled;
+        return this;
+    }
+    ...
+}
+</code></pre><p>We want to execute <code>this.thenFunction</code> once the Promise has settled &ndash; that is, whenever either <code>resolve</code> or <code>reject</code> are called. We also want to update the state of the Promise object to account for any future calls.</p>
+<pre><code>class Promise {
+    resolve(value) {
+        ...
+        this.callThen();
+    }
+
+    reject(error) {
+        ...
+        this.callThen();
+    }
+    ...
+
+    callThen() {
+        if (this.thenFunction) 
+            this.outcome.value = this.thenFunction(this.outcome.value);
+    }
+    ...
+}
+</code></pre><p>Finally, to account for a <code>then</code> function call after the Promise has been resolved.</p>
+<pre><code>class Promises {
+    then(onFulfilled) {
+        this.thenFunction = onFulfilled;
+        if (this.outcome !== null) {
+            this.callThen();
+        }
+        return this;
+    }
+}
+</code></pre><h2 id="then-chaining"><code>then</code> Chaining<a class="anchor" href="#then-chaining">#</a></h2>
+<p>Oone last thing to handle &ndash; chaining <code>then</code>s. The problem with our current implementation is that, each time <code>then</code> is called, <code>this.thenFunction</code> gets overwritten. To handle this, we change our <code>thenFunction</code> to an array.</p>
+<pre><code>class Promise {
+    constructor(executor) {
+        ...
+        this.thenFunctions = [];
+        ...
+    }
+    ...
+    then(onFulfilled) {
+        ...
+        this.thenFunctions.push(onFulfilled);
+        ...
+    }
+    ...
+    callThen() {
+        if (this.thenFunctions) {
+            this.thenFunctions.forEach(fn =&gt; {
+                this.outcome.value = fn(this.outcome.value)
+            });
+            this.thenFunctions = [];
+        }
+    }
+    ...
+}
+</code></pre><p>And we&rsquo;re done!</p>
+<h2 id="bringing-it-all-together">Bringing It All Together<a class="anchor" href="#bringing-it-all-together">#</a></h2>
+<p>Here is our complete Promise implementation:</p>
+<pre><code>class Promise {
+    constructor(executor) {
+        this.outcome = null;
+        this.thenFunctions = callStack;
+
+        this.resolve = this.resolve.bind(this);
+        this.reject = this.reject.bind(this);
+
+        executor(this.resolve, this.reject);
+    }
+
+    resolve(value) {
+        this.outcome = {status: 'fulfilled', value: value};
+        this.callThen();
+    }
+
+    reject(error) {
+        this.outcome = {status: 'rejected', reason: error};
+        this.callThen();
+    }
+
+    then(onFulfilled) {
+        this.thenFunctions.push(onFulfilled);
+        if (this.outcome !== null) {
+            this.callThen();
+        }
+        return this;
+    }
+
+    callThen() {
+        if (this.thenFunctions) {
+            this.thenFunctions.forEach(fn =&gt; {
+                this.outcome.value = fn(this.outcome.value)
+            });
+            this.thenFunctions = [];
+        }
+    }
+
+}
+</code></pre><h2 id="the-hidden-flaws">The Hidden Flaws<a class="anchor" href="#the-hidden-flaws">#</a></h2>
+<p>There&rsquo;s a tiny lie that this execution of the Promise class tells its user. When <code>then</code> is called, the user assumes that it returns a new Promise. This is not the case. It is always the original Promise object that is returned. It is also the original Promise that is modified to reflect the <code>then</code> calls.</p>
+<p>Because of this, parellel <code>then</code> calls will not work as intended:</p>
+<pre><code>// let promise = &lt;Promise object&gt;
+
+promise.then((val) =&gt; val+&quot;2&quot;);
+promise.then((val) =&gt; val+ &quot;3&quot;);
+</code></pre><p>The second <code>then</code> function should return <code>value3</code>, but would return <code>value23</code>. The fix for this would be to distinguish <code>then</code> chaining and parellel <code>then</code>s, which this implementation does not do.</p>
+<p>If anyone is interested in writing an extension to this implementation, incorporating rejections and fixing other faults, feel free to <a href="https://github.com/somaniarushi/promises">send me a pull request on the repo</a>.</p>
+<p><em>If you enjoyed reading this, please consider signing up to <a href="/newsletter">my newsletter.</a></em></p>
+
+
+    
+    
+  </article>
+  
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://www.amks.me/tags/web-development/">web-development</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://www.amks.me/tags/teaching/">teaching</a>
+    </li></ul>
+
+ 
+  <div class="pagination">
+  
+    <a class="pagination__item" href="https://www.amks.me/blog/clipboard/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Making My Own Clipboard</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://www.amks.me/blog/fall20/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Fall 2020 Retrospective</a>
+    </a>
+  
+</div>
+
+</div>
+
+  </main>
+
+  
+<footer>
+  <div class="social-icons">
+  
+  <a class="social-icons__icon social-icons__icon--twitter" href="https://twitter.com/amksomani"></a>
+  
+  
+  <a class="social-icons__icon social-icons__icon--github" href="https://github.com/somaniarushi"></a>
+  
+</div>
+
+  <p>amk © 2020</p>
+</footer>
+
+
+  <script src="/js/index.js"></script>
+  
+<script src="/vendor/prism/prism.js"></script>
+
+</body>
+
+</html>
