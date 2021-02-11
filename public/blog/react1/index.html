@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  
+
+  <title>The React Breakdown, Part I | AMKS</title>
+
+  <meta property="og:title" content="The React Breakdown, Part I | AMKS" />
+  <meta name="twitter:title" content="The React Breakdown, Part I | AMKS" />
+  <meta itemprop="name" content="The React Breakdown, Part I | AMKS" />
+  <meta name="application-name" content="The React Breakdown, Part I | AMKS" />
+  <meta property="og:site_name" content="amks" />
+
+
+  <meta charset="UTF-8">
+  <meta name="language" content="en">
+  <meta name="description" content="A Gentle Introduction to React">
+  <meta itemprop="description" content="A Gentle Introduction to React" />
+  <meta property="og:description" content="Making the things that help other people make things. Sophomore at UC Berkeley passionate about CS, Economics, Astrophysics and Entrepreneurship." />
+  <meta name="twitter:description" content="Making the things that help other people make things. Sophomore at UC Berkeley passionate about CS, Economics, Astrophysics and Entrepreneurship." />
+
+  <base href="">
+  <link rel="canonical" href="" itemprop="url" /> 
+  <meta name="url" content="" />
+  <meta name="twitter:url" content="" /> 
+  <meta property="og:url" content="" />
+  
+  <meta name="keywords" content="react , web development , tutorial">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="google-site-verification" content="8cyiY374WL2LGr87fBghcdJCRx6BaPNBvLjeZlk6tyc" />
+
+  
+  
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="The React Breakdown, Part I" />
+  <meta name="twitter:description" content="A Gentle Introduction to React"
+  />
+  <meta name="twitter:site" content="@amksomani" />
+  <meta name="twitter:creator" content="@amksomani" />
+  
+
+  <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  
+<link rel="stylesheet" href="/css/post.css" /> 
+
+   
+   
+    
+
+<script type="application/ld+json">
+  
+    {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/www.amks.me"
+      },
+      "articleSection" : "blog",
+      "name" : "The React Breakdown, Part I",
+      "headline" : "The React Breakdown, Part I",
+      "description" : "A Gentle Introduction to React",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2020",
+      "datePublished": "2020-12-08 17:02:40 -0800 PST",
+      "dateModified" : "2020-12-08 17:02:40 -0800 PST",
+      "url" : "https:\/\/www.amks.me\/blog\/react1\/",
+      "wordCount" : "1088",
+      "keywords" : ["react", "web development", "tutorial", "Blog"]
+    }
+  
+  </script>
+
+</head>
+
+<body>
+  <div class="burger__container">
+  <div class="burger" aria-controls="navigation" aria-label="Menu">
+    <div class="burger__meat burger__meat--1"></div>
+    <div class="burger__meat burger__meat--2"></div>
+    <div class="burger__meat burger__meat--3"></div>
+  </div>
+</div>
+ 
+
+  <nav class="nav" role="navigation">
+  <ul class="nav__list">
+     
+    
+      <li>
+        <a  href="/">home</a>
+      </li>
+    
+      <li>
+        <a  href="/about">about me</a>
+      </li>
+    
+      <li>
+        <a  href="/newsletter">newsletter</a>
+      </li>
+    
+      <li>
+        <a  href="https://www.linkedin.com/in/arushisomani">linkedin</a>
+      </li>
+    
+      <li>
+        <a  href="/projects">projects</a>
+      </li>
+    
+      <li>
+        <a  href="/resume.pdf">resume</a>
+      </li>
+    
+      <li>
+        <a  class="active"
+           href="/blog">blog</a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+  <main>
+    
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title">The React Breakdown, Part I</h1>
+   
+  </header>
+  <article class="post__content">
+
+    <div class="post__details__wrapper">
+    <div class="post__details">
+      <time datetime="2020-12-08 17:02:40 -0800 PST" class="post__date">
+        Dec 8 2020
+      </time>
+      <span class="divider">|</span>
+      <div class="post__location">
+        Lucknow, India
+      </div>
+      <span class="divider">|</span>
+      <div class="post__length">
+        11 minutes
+      </div>
+    </div>
+  </div>
+    
+<p>This series of notes was used to teach students at Berkeley in the fall of 2020.</p>
+<p>Unlike many other tutorials across the internet, this tutorial uses a bottom-up approach to React, going through the basics of different react functionalities before implementing them. It pulls back the layer of abstraction around React tools to deeply understand how they work.</p>
+<h2 id="what-is-react">What is React?<a class="anchor" href="#what-is-react">#</a></h2>
+<p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “UI components”.</p>
+<h2 id="motivation-why-use-frameworks-at-all">Motivation: Why use frameworks at all?<a class="anchor" href="#motivation-why-use-frameworks-at-all">#</a></h2>
+<p>With &ldquo;vanilla&rdquo; HTML/CSS/JS, we can build any front-end project. Combined with a little back-end Ruby on Rails/Node.JS/Django knowledge, we can build any web-based project whatsoever.</p>
+<p>However, there are problems with the vanilla approach. For one, HTML, CSS and JS are often a pain to write –– we often swap in JQuery to ease some problems for us. We add Bootstrap to ease the pain off of building something that we use repeatedly. Relying on the foundation of what others have built for our use is simply good programming practise.</p>
+<p>In the vanilla version, everything is defined globally. The feedback form doesn&rsquo;t need to know about the navigation bar! It also reduces reusability. As your project grows, pure HTML, CSS and JS will get more and more unweildy, harder to document, and difficult to maintain.</p>
+<p>For those readers familiar with object oriented languages, you may realize that these are the same problems that lead to the creation of classes in Python and Java. We now endeavor to take those principles and apply them to web development.</p>
+<h2 id="why-use-react">Why use React?<a class="anchor" href="#why-use-react">#</a></h2>
+<p>React.JS is one of the most popular libraries for front-end web development. It&rsquo;s open-source, and has a huge community of developers working on open source projects through it.</p>
+<p>React fits very cleanly into the MVC model of development. React is incredibly good at scoping and components –– ie, it is object oriented and does separation of concerns well. It&rsquo;s also similar to Bootstrap and Jquery in that it&rsquo;s unrestrictive –– you can use as much or as little of it as you desire!</p>
+<p>It also removes the barrier created by different languages being in different files, which helps in creating a more modular project. The biggest power of React, however, is its abstractions. Something that might take you 20 lines of code in JS takes you one in React.</p>
+<p>Cons of React: There&rsquo;s a sharp learning curve. Writing React is sometimes confusing (I second this one, I still get confused!). It&rsquo;s a big library, decreasing how light-weight your code can be. (Longer load times)</p>
+<h2 id="installations-and-basics">Installations and Basics<a class="anchor" href="#installations-and-basics">#</a></h2>
+<h3 id="node">Node<a class="anchor" href="#node">#</a></h3>
+<p>Node is a Javascript interpreter for the server. It is an open-source server side runtime environment built on Chrome&rsquo;s V8 JavaScript engine. It provides an event driven, non-blocking (asynchronous) I/O and cross-platform runtime environment for building highly scalable server-side application using JavaScript.</p>
+<p>With Node, you can write <em>all</em> parts of your programs in a single language –– Javascript. Node preserves the ability of JS to be async and event based, which is why it is so powerful. <a href="https://nodejs.org/en/download">Install it here.</a></p>
+<h3 id="server">Server<a class="anchor" href="#server">#</a></h3>
+<p>When you see a website, the bits that make up your website are coming from somewhere. This place where your website is coming from is the website server. When you run websites locally, the server is your computer. The idea behind Node is that it takes the Javascript and interprets it and serves it for us.</p>
+<h3 id="npm">NPM<a class="anchor" href="#npm">#</a></h3>
+<p>npm is a package manager for the JavaScript programming language. It is the default package manager for the JavaScript runtime environment Node.js. It consists of a command line client, also called npm, and an online database of public and paid-for private packages, called the npm registry. Think Bootsrap but open-sourced. <a href="https://www.npmjs.com/get-npm">Install it here.</a></p>
+<h2 id="trying-out-react">Trying Out React<a class="anchor" href="#trying-out-react">#</a></h2>
+<h3 id="create-react-app"><code>create-react-app</code><a class="anchor" href="#create-react-app">#</a></h3>
+<p><a href="https://www.npmjs.com/create-react-app">Create React App</a> is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.</p>
+<p>Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.</p>
+<p>Start your project by typing the following in the terminal:</p>
+<pre><code>npx create-react-app my-app
+cd my-app
+npm start
+</code></pre><p>Link for more details: <a href="https://github.com/facebook/create-react-app">https://github.com/facebook/create-react-app</a></p>
+<h3 id="messing-around">Messing Around<a class="anchor" href="#messing-around">#</a></h3>
+<p>Now, we&rsquo;ll play around with it!</p>
+<p>In <code>create-react-app</code>, look in <code>src/index.js</code>. We shall see this line:</p>
+<pre><code>ReactDOM.render(
+  &lt;React.StrictMode&gt;
+    &lt;App /&gt;
+  &lt;/React.StrictMode&gt;,
+  document.getElementById('root')
+);
+</code></pre><p>What&rsquo;s going on here: We&rsquo;re asking React to render into the DOM, the App that we have created (strictly). We&rsquo;ll talk more about all the other tags, but right now, let&rsquo;s mess around with this!</p>
+<p>Let&rsquo;s change this into something simpler:</p>
+<pre><code>ReactDOM.render(
+  &lt;React.StrictMode&gt;
+    &lt;h1&gt;Hi!&lt;/h1&gt;
+  &lt;/React.StrictMode&gt;,
+  document.getElementById('root')
+);
+</code></pre><p>Here, we see that we&rsquo;re putting HTML straight into JS. How is this happening?! This is through JSX, which we&rsquo;ll talk about more later.</p>
+<p>Now, we introduce the curly parenthesis: The way to incorporate javascript into HTML inside of Javascript!</p>
+<pre><code>var display = &quot;Cheers!&quot;
+
+ReactDOM.render(
+  &lt;React.StrictMode&gt;
+    &lt;h1&gt;{display}&lt;/h1&gt;
+  &lt;/React.StrictMode&gt;,
+  document.getElementById('root')
+);
+</code></pre><p>Now, we take HTML out of the render call to show the flexibility of JSX. HTML tags can be used as any other JS expression.</p>
+<pre><code>var display = &lt;h1&gt;Number 3&lt;/h1&gt;
+
+ReactDOM.render(
+  &lt;React.StrictMode&gt;
+    {display}
+  &lt;/React.StrictMode&gt;,
+  document.getElementById('root')
+);
+</code></pre><h2 id="how-react-works">How React Works<a class="anchor" href="#how-react-works">#</a></h2>
+<pre><code>import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+
+ReactDOM.render(
+  &lt;React.StrictMode&gt;
+    &lt;App /&gt;
+  &lt;/React.StrictMode&gt;,
+  document.getElementById('root')
+);
+</code></pre><p>Let&rsquo;s address all of these.</p>
+<h3 id="what-is-reactdom">What is <code>ReactDOM</code>?<a class="anchor" href="#what-is-reactdom">#</a></h3>
+<p>The Document Object Model (DOM) is a platform and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure, and style of a document. ReactDOM is a package that provides an efficient way of managing DOM elements of the web page.</p>
+<h3 id="what-is-reactstrictmode">What is <code>React.StrictMode</code>?<a class="anchor" href="#what-is-reactstrictmode">#</a></h3>
+<p>StrictMode is a tool for highlighting potential problems in an application that may not immediately error.</p>
+<h3 id="what-is-app-">What is <code>&lt;App /&gt;</code>?<a class="anchor" href="#what-is-app-">#</a></h3>
+<p>Similar to how we have <code>&lt;h1&gt;</code> or <code>&lt;img&gt;</code> tags in HTML, we have the power to create custom tags in React. This is a custom App tag.</p>
+<h3 id="what-is-documentgetelementbyidroot">What is <code>document.getElementbyID('root')</code>?<a class="anchor" href="#what-is-documentgetelementbyidroot">#</a></h3>
+<p>This is plain JS! We&rsquo;re injecting our ReactDOM-rendered element into the &ldquo;root&rdquo; of the page. But where is this root? Check out <code>public/index.html</code>! You will see this:</p>
+<pre><code>&lt;div id=&quot;root&quot;&gt;&lt;/div&gt;
+</code></pre><p>This is the div in which we are injecting our App.</p>
+<h3 id="in-conclusion">In Conclusion<a class="anchor" href="#in-conclusion">#</a></h3>
+<p>You&rsquo;re now getting mildly familiar with React as a language — this is just the beginning. In the next part of this series, we&rsquo;ll talk about JSX, and then get developing!</p>
+
+
+    
+    
+  </article>
+  
+
+<ul class="tags__list">
+    
+    <li class="tag__item">
+        <a class="tag__link" href="https://www.amks.me/tags/web-development/">web-development</a>
+    </li>
+    <li class="tag__item">
+        <a class="tag__link" href="https://www.amks.me/tags/teaching/">teaching</a>
+    </li></ul>
+
+ 
+  <div class="pagination">
+  
+    <a class="pagination__item" href="https://www.amks.me/blog/clipboard/">
+        <span class="pagination__label">Previous Post</span>
+        <span class="pagination__title">Making My Own Clipboard</span>
+    </a>
+  
+
+  
+    <a class="pagination__item" href="https://www.amks.me/blog/promises/">
+      <span class="pagination__label">Next Post</span>
+      <span class="pagination__title" >Recreating Promises in Javascript</a>
+    </a>
+  
+</div>
+
+</div>
+
+  </main>
+
+  
+<footer>
+  <div class="social-icons">
+  
+  <a class="social-icons__icon social-icons__icon--twitter" href="https://twitter.com/amksomani"></a>
+  
+  
+  <a class="social-icons__icon social-icons__icon--github" href="https://github.com/somaniarushi"></a>
+  
+</div>
+
+  <p>amk © 2020</p>
+</footer>
+
+
+  <script src="/js/index.js"></script>
+  
+<script src="/vendor/prism/prism.js"></script>
+
+</body>
+
+</html>

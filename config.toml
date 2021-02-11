@@ -49,10 +49,10 @@ copyright = "amk © 2020"
   weight = "50"
 
 [[menu.main]]
-  identifier = "github"
-  name = "github"
-  title = "Github"
-  url = "https://github.com/somaniarushi"
+  identifier = "projects"
+  name = "projects"
+  title = "Projects"
+  url = "/projects"
   weight = "50"
 
 [[menu.main]]

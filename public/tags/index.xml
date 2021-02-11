@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>amk © 2020</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 18:02:07 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 19 Jan 2021 13:29:13 -0800</lastBuildDate>
     
 	<atom:link href="https://www.amks.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>curiosities</title>
+      <link>https://www.amks.me/tags/curiosities/</link>
+      <pubDate>Tue, 19 Jan 2021 13:29:13 -0800</pubDate>
+      
+      <guid>https://www.amks.me/tags/curiosities/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>teaching</title>

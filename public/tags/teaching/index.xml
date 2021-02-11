@@ -25,6 +25,17 @@ The Specification To focus on core concepts, we&amp;rsquo;ll assume that our Pro
     </item>
     
     <item>
+      <title>The React Breakdown, Part I</title>
+      <link>https://www.amks.me/blog/react1/</link>
+      <pubDate>Tue, 08 Dec 2020 17:02:40 -0800</pubDate>
+      
+      <guid>https://www.amks.me/blog/react1/</guid>
+      <description>This series of notes was used to teach students at Berkeley in the fall of 2020.
+Unlike many other tutorials across the internet, this tutorial uses a bottom-up approach to React, going through the basics of different react functionalities before implementing them. It pulls back the layer of abstraction around React tools to deeply understand how they work.
+What is React? React is a declarative, efficient, and flexible JavaScript library for building user interfaces.</description>
+    </item>
+    
+    <item>
       <title>How To Practise For CS Classes</title>
       <link>https://www.amks.me/blog/cs61a-practise/</link>
       <pubDate>Wed, 21 Oct 2020 14:52:27 -0700</pubDate>
