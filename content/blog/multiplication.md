@@ -5,7 +5,7 @@ slug: "multiply"
 description: "Not clickbait. Really."
 keywords: []
 location: "Delhi, India"
-draft: false
+draft: true
 tags: ["curiosities"]
 stylesheet: "post.css"
 math: true
