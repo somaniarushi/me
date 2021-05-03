@@ -20,3 +20,8 @@ Preferably, I'll be running every morning — but I won't pretend to be able to 
 Distance Travelled: 5.4MI (8.7KM)
 
 ![I Walk A Lonely Road](/images/berkeleymarina.png)
+
+## May 2: Home &#10132; Strawberry Creek Park
+Distance Travelled: 2.6MI (4.18KM)
+
+![The Hidden Cafe, Shh!](/images/strawberrycreek.jpg)
