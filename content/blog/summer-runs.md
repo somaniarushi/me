@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 1/36**
+**Running Total: 3/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
@@ -25,3 +25,8 @@ Distance Travelled: 5.4MI (8.7KM)
 Distance Travelled: 2.6MI (4.18KM)
 
 ![The Hidden Cafe, Shh!](/images/strawberrycreek.jpg)
+
+## May 3: Home &#10132; Indian Rock Park
+Distance Travelled: 4.5MI (7.24KM)
+
+![Apne Hone Pe Yakin Aa Gaya](/images/indianrockpark.png)
