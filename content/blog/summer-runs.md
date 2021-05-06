@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 3/36**
+**Running Total: 5/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
