@@ -26,14 +26,14 @@ I love the ocean. It's powerful as fuck, and feminine as fuck, and both of those
 ## May 2: Home &#10132; Strawberry Creek Park
 Distance Travelled: 2.6MI (4.18KM)
 
-Today, sitting on a lone bench, I loved this park for how much life it had. Dogs ran around, parents chased their mischiveous children, couples spread picnic blankets and enjoyed some time together. It's been a while since most of us have been able to enjoy life (thanks corona). It was nice to see that again.
+Parks have so much life. Dogs run around, parents chase their mischiveous children, couples spread picnic blankets and eenjoy some time together. It's been a while since most of us have been able to enjoy life (thanks corona). It was nice to see that again.
 
 ![The Hidden Cafe, Shh!](/images/strawberrycreek.jpg)
 
 ## May 3: Home &#10132; Indian Rock Park
 Distance Travelled: 4.5MI (7.24KM)
 
-In the vast mysteriousness of nature, we are mere observers, glancing at the sky, *feeling* the roundness, but unable to explain how. Maybe Hawking was onto something when he called the universe a grand design.
+Maybe Hawking was onto something when he called the universe a grand design.
 
 ![Apne Hone Pe Yakin Aa Gaya](/images/indianrockpark.png)
 
@@ -44,3 +44,9 @@ It's the worst time to want to be an explorer — too late to explore the Earth,
 
 ![Some Hills IDK](/images/campbotpark.png)
 
+## May 5: Home &#10132; Boichik Bagels
+Distance Travelled: 2.4MI (3.86KM)
+
+Not like the other trips, but I woke up at 6AM for this, so I think it counts. Were the bagels life-changing? I don't know. But they certainly were worth waking up that early.
+
+![BAGEL](/images/boichik.png)
