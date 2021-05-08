@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 5/36**
+**Running Total: 6/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
@@ -50,3 +50,10 @@ Distance Travelled: 2.4MI (3.86KM)
 Not like the other trips, but I woke up at 6AM for this, so I think it counts. Were the bagels life-changing? I don't know. But they certainly were worth waking up that early.
 
 ![BAGEL](/images/boichik.png)
+
+## May 8: Home &#10132; Aquatic Park
+Distance Travelled: 3.12MI (5.02KM)
+
+Running to a park two days before finals? Won't lie— would recommend. Messing up your life is fun! 
+
+![Wahter](/images/aquaticpark.png)
