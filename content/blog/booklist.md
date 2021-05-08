@@ -13,7 +13,7 @@ stylesheet: "post.css"
 
 This year, I decided to read 52 books — a book for every week of the year. Here's a list of everything that I read.
 
-## The List
+## Read
 - The Myth of the Garage, by Dan Health
 - How To Design and Teach Workshops That Work Every Time, by Rob Fitzpatrick
 - Soonish, by Kelly and Zach Weinersmith
@@ -29,3 +29,11 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 - No Filter, by Sarah Frier
 - Talent is Overrated, by Geoff Colvin
 - Atomic Habits, by James Clear
+
+## Currently Reading
+- Infinite Powers, by Steven Strocatz
+- Red, White and Royal Blue, by Casey McQuiston
+- The Inevitable, by Kevin Kelly
+- Originals, by Adam Grant
+
+A more thorough collection of my reading collection can be found at [goodreads.com/amks](https://goodreads.com/amks).
