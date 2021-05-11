@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 6/36**
+**Running Total: 7/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
@@ -57,3 +57,10 @@ Distance Travelled: 3.12MI (5.02KM)
 Running to a park two days before finals? Won't lie— would recommend. Messing up your life is fun! 
 
 ![Wahter](/images/aquaticpark.png)
+
+## May 10: Home &#10132; Aquatic Park, Evening Edition
+Distance Travelled: 3.3MI (5.1KM)
+
+Sunsets are the best time of the day. No, I will not be taking any arguments to the contrary.
+
+![Evening Wahter](/images/aquaticparktrek.png)
