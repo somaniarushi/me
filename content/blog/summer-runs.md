@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 7/36**
+**Running Total: 9/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
@@ -64,3 +64,17 @@ Distance Travelled: 3.3MI (5.1KM)
 Sunsets are the best time of the day. No, I will not be taking any arguments to the contrary.
 
 ![Evening Wahter](/images/aquaticparktrek.png)
+
+## May 12: Home &#10132; Point Emery
+Distance Travelled: 3.4MI (5.47KM)
+
+A chasing the sun moment. 
+
+![Beautiful Seas](/images/pointemery.jpg)
+
+## May 13: Home &#10132; Point Emery, Evening Edition
+Distance Travelled: 5MI (8.04KM)
+
+The Bay Area Trail is really very good. Running by the sea is one of the best things ever.
+
+![Beautiful Flowers](/images/pointemeryflowers.png)
