@@ -5,7 +5,7 @@ slug: "eecs126"
 description: "For the curious."
 keywords: ["berkeley", "eecs126", "notes", "random processes", "probability"]
 location: "Berkeley, USA"
-draft: true
+draft: false
 tags: ["eecs126", "classes"]
 stylesheet: "post.css"
 math: true
