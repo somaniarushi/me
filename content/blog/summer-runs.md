@@ -10,7 +10,7 @@ location: "Berkeley, USA"
 stylesheet: "post.css"
 ---
 
-**Running Total: 9/36**
+**Running Total: 11/36**
 
 It's summer! That means it's time to get active, get out there, and explore. This summer, I find myself with some free time and a lot more determination. Because of this, I'm going to start running in the mornings! 
 
@@ -78,3 +78,17 @@ Distance Travelled: 5MI (8.04KM)
 The Bay Area Trail is really very good. Running by the sea is one of the best things ever.
 
 ![Beautiful Flowers](/images/pointemeryflowers.png)
+
+## May 14: Home &#10132; Twin Peaks
+Distance Travelled: 4.78MI (7.69KM)
+
+High above the clouds, with nothing but the sky and the wind and the cold. 
+
+![Up In The Sky](/images/twinpeaks.png)
+
+## May 15: Home &#10132; Caffe Chiave
+Distance Travelled: 3.4MI (5.47KM)
+
+Went all this way for an espresso. Worth it. 
+
+![Is a nice cafe](/images/caffechiave.jpg)
