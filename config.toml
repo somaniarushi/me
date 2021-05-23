@@ -61,13 +61,6 @@ copyright = "amk © 2020"
   title = "Resume"
   url = "/resume.pdf"
   weight = "50"
-
-[[menu.main]]
-  identifier = "newsletter"
-  name = "newsletter"
-  title = "Newsletter"
-  url = "/newsletter"
-  weight = "39"
   
 
 preserveTaxonomyNames = true
