@@ -29,11 +29,16 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 - No Filter, by Sarah Frier
 - Talent is Overrated, by Geoff Colvin
 - Atomic Habits, by James Clear
-
-## Currently Reading
-- Infinite Powers, by Steven Strocatz
-- Red, White and Royal Blue, by Casey McQuiston
 - The Inevitable, by Kevin Kelly
 - Originals, by Adam Grant
+- The Art of Community, by Charles Vogl
+
+## Currently Reading
+- The First 20 Hours, by Josh Kaufman
+- Infinite Powers, by Steven Strocatz
+- Red, White and Royal Blue, by Casey McQuiston
+- The Problems of Philosophy, by Bertrand Russell
+- MOOCs by Jonathan Haber
+
 
 A more thorough collection of my reading collection can be found at [goodreads.com/amks](https://goodreads.com/amks).
