@@ -9,7 +9,7 @@ draft: false
 tags: []
 stylesheet: "post.css"
 ---
-**Reading Total: 15/52**
+**Reading Total: 18/52**
 
 This year, I decided to read 52 books — a book for every week of the year. Here's a list of everything that I read.
 
