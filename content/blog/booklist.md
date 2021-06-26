@@ -9,7 +9,7 @@ draft: false
 tags: []
 stylesheet: "post.css"
 ---
-**Reading Total: 18/52**
+**Reading Total: 20/52**
 
 This year, I decided to read 52 books — a book for every week of the year. Here's a list of everything that I read.
 
@@ -31,14 +31,17 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 - Atomic Habits, by James Clear
 - The Inevitable, by Kevin Kelly
 - Originals, by Adam Grant
-- The Art of Community, by Charles Vogl
+- The Art of Community, by Charles Vog
+- MOOCs by Jonathan Haber
+- The Art of Learning by Joshua Waitzkin
 
 ## Currently Reading
-- The First 20 Hours, by Josh Kaufman
+- Why We Sleep, by Matthew Walker
+- How I Built This, by Guy Raz
+- The Problems of Philosophy, by Bertrand Russell
 - Infinite Powers, by Steven Strocatz
 - Red, White and Royal Blue, by Casey McQuiston
-- The Problems of Philosophy, by Bertrand Russell
-- MOOCs by Jonathan Haber
+
 
 
 A more thorough collection of my reading collection can be found at [goodreads.com/amks](https://goodreads.com/amks).
