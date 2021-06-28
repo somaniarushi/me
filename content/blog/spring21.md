@@ -2,9 +2,9 @@
 title: "Spring 2021 Retrospective"
 date: 2021-05-30T09:30:31-07:00
 slug: "spring21"
-description: ""
+description: "Anotha one!"
 location: "Berkeley, USA"
-keywords: []
+keywords: ["college", "retrospective"]
 draft: false
 tags: []
 stylesheet: "post.css"
