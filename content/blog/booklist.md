@@ -44,4 +44,4 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 
 
 
-A more thorough collection of my reading collection can be found at [goodreads.com/amks](https://goodreads.com/amks).
+A more thorough collection of my reading record can be found at [goodreads.com/amks](https://goodreads.com/amks).
