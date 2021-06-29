@@ -52,7 +52,7 @@ copyright = "amk © 2020"
   identifier = "projects"
   name = "projects"
   title = "Projects"
-  url = "/projects"
+  url = "/s/projects"
   weight = "50"
 
 [[menu.main]]
