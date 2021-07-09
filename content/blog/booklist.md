@@ -9,7 +9,7 @@ draft: false
 tags: []
 stylesheet: "post.css"
 ---
-**Reading Total: 20/52**
+**Reading Total: 21/52**
 
 This year, I decided to read 52 books — a book for every week of the year. Here's a list of everything that I read.
 
@@ -34,6 +34,7 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 - The Art of Community, by Charles Vog
 - MOOCs by Jonathan Haber
 - The Art of Learning by Joshua Waitzkin
+- On Writing: A Memoir of the Craft, by Stephen King
 
 ## Currently Reading
 - Why We Sleep, by Matthew Walker
