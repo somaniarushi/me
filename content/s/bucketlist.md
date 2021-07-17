@@ -4,7 +4,7 @@ description: "My personal things to do on Planet Earth before either it or I die
 date: 2021-07-16T17:28:03-07:00
 slug: "bucketlist"
 keywords: ["bucket list"]
-draft: true
+draft: false
 stylesheet: "post.css"
 ---
 
