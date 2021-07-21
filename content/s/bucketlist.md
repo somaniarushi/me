@@ -64,6 +64,7 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Go solo skydiving
 - Fund a child's entire education
 - Write a popular open-source project
+- Have an exit a startup
 
 ## Things To Get Averagely Good At
 - Dancing
