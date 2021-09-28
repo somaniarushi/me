@@ -9,6 +9,13 @@ tags: []
 stylesheet: "post.css"
 ---
 
+## Fall 2021
+- CS162: Operating Systems and Systems Programming
+- EECS127: Optimization Models in Engineering
+- CS195: Social Implications of Computer Science
+- ECON100A: Microeconomics
+- CS198: (Teaching) Introduction to Full Stack Development
+
 ## Summer 2021
 - CS197: Field Studies in Computer Science
 

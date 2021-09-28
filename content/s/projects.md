@@ -18,6 +18,8 @@ A list of all my public projects, technical or technical-adjacent. For a more th
 
 **Narcissus**: To begin with, the hub for everything else I make, this website! Developed, designed and maintained in Hugo. Fork it [here](https://github.com/somaniarushi/me).
 
+**Carnot**: Developing my own browser engine. A toy version for how Chrome works. Fork it [here](https://github.com/somaniarushi/carnot).
+
 **Dungeons**: Web-socket enabled online RPG combat platform. A simpler version of Roll20, made for players with some programming knowledge. Fork it [here](https://github.com/somaniarushi/dungeons).
 
 **Respond**: Cloning React to learn how it works (And maybe even improve it). Fork it [here](https://github.com/somaniarushi/repond).

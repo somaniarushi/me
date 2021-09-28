@@ -9,7 +9,7 @@ stylesheet: "post.css"
 ---
 
 This is my personal list of things to do on Planet Earth before either it or I die.
-  
+
 ## Things to Do Before I Die
 ### Berkeley-Specific
 - ~~Blow out the curve for a Berkeley class~~
@@ -65,6 +65,7 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Fund a child's entire education
 - Write a popular open-source project
 - Have an exit a startup
+- Build a library in a university
 
 ## Things To Get Averagely Good At
 - Dancing
