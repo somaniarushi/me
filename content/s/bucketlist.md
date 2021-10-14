@@ -67,6 +67,7 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Have an exit a startup
 - Build a library in a university
 - Run an ad at Times Square in New York
+- Have a company attempt to hire you
 
 ## Things To Get Averagely Good At
 - Dancing
