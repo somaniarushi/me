@@ -1,5 +1,5 @@
 ---
-title: "My Great Big 2021 Reading List"
+title: "2021 Reading List"
 date: 2021-05-01T00:28:51-07:00
 slug: "books"
 description: "I started reading, and then I read some more."
@@ -41,7 +41,6 @@ This year, I decided to read 52 books — a book for every week of the year. Her
 - How I Built This, by Guy Raz
 - The Problems of Philosophy, by Bertrand Russell
 - Infinite Powers, by Steven Strocatz
-- Red, White and Royal Blue, by Casey McQuiston
 
 
 

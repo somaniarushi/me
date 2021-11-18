@@ -10,6 +10,8 @@ stylesheet: "post.css"
 
 This is my personal list of things to do on Planet Earth before either it or I die.
 
+> I find that a lot of people misunderstand this bucket list. The point of this list isn't to accomplish everything on it — I have no control over many of these. These are items I _aspire_ towards.
+
 ## Things to Do Before I Die
 ### Berkeley-Specific
 - ~~Blow out the curve for a Berkeley class~~
@@ -68,16 +70,5 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Build a library in a university
 - Run an ad at Times Square in New York
 - Have a company attempt to hire you
-
-## Things To Get Averagely Good At
-- Dancing
-- Running
-- Singing
-- Cooking
-- Poetry
-- Painting
-- Mental Math
-- Sketching
-- Hacking
-- Archery
-
+- Become a MacArthur Fellow
+- Host a professional RPG game show.
