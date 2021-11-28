@@ -15,6 +15,7 @@ This is my personal list of things to do on Planet Earth before either it or I d
 ## Things to Do Before I Die
 ### Berkeley-Specific
 - ~~Blow out the curve for a Berkeley class~~
+- ~~Teach a Berkeley class~~
 - ~~Climb on top of Doe Library~~
 - ~~Climb on top of Pimentel~~
 - ~~See the Berkeley Naked Run~~
@@ -27,11 +28,12 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Become a student VC
 - ~~Take more units than allowed per semester~~
 - ~~Start a class/decal~~
+- Write a peer-reviewed published research paper
 
 ### General
 - Run away from the police
 - Go to a pride parade
-- Read 365 books in a year
+- Read 100 books in a year
 - Make my own cryptocurrency (`$AMKS`)
 - Have NYT write an article about you
 - Get on the front page of ProductHunt
@@ -54,7 +56,6 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - See the *Aurora Borealis*
 - Publish a New York Times Bestselling Book
 - Run with the bulls
-- Have a beach house
 - Take my family on a vacation fully-funded by me
 - Make a movie/write a published screenplay
 - Save a life
@@ -69,6 +70,9 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Have an exit a startup
 - Build a library in a university
 - Run an ad at Times Square in New York
-- Have a company attempt to hire you
-- Become a MacArthur Fellow
+- ~~Have a company attempt to hire you~~
 - Host a professional RPG game show.
+- Have a vacation place in Tahoe
+- Do a pullup
+- Make my own social media platform
+
