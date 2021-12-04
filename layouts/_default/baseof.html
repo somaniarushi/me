@@ -21,11 +21,11 @@
   <meta name="twitter:description" content="{{ .Site.Params.description }}" />
 
   <base href="{{ .Site.Params.baseURL }}">
-  <link rel="canonical" href="{{ .Site.Params.baseURL }}" itemprop="url" /> 
+  <link rel="canonical" href="{{ .Site.Params.baseURL }}" itemprop="url" />
   <meta name="url" content="{{ .Site.Params.baseURL }}" />
-  <meta name="twitter:url" content="{{ .Site.Params.baseURL }}" /> 
+  <meta name="twitter:url" content="{{ .Site.Params.baseURL }}" />
   <meta property="og:url" content="{{ .Site.Params.baseURL }}" />
-  
+
   <meta name="keywords" content="{{ delimit .Keywords " , " }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -44,15 +44,14 @@
 
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
   {{ block "stylesheets" . }} {{ end }}
-  {{ range .AlternativeOutputFormats }} 
-  {{ printf `<link rel="%s" type="%s+%s" href="%s" title="%s" />` .Rel .MediaType.Type .MediaType.Suffix .Permalink $.Site.Title | safeHTML }} 
-  {{ end }} 
+  {{ range .AlternativeOutputFormats }}
+  {{ end }}
   {{ block "links" . }} {{ end }}
   {{ partial "seo-schema.html" .}}
 </head>
 
 <body>
-  {{ partial "burger.html" .}} 
+  {{ partial "burger.html" .}}
 
   {{ partial "nav.html" .}}
 

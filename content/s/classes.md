@@ -8,6 +8,12 @@ draft: false
 tags: []
 stylesheet: "post.css"
 ---
+## Spring 2022
+- CS188: Introduction to Artificial Intelligence
+- CS189: Introduction to Machine Learning
+- CS184: Introduction to Computer Graphics
+- L&S22: Sense, Sensibility and Science
+- ECON140: Econometrics
 
 ## Fall 2021
 - CS162: Operating Systems and Systems Programming

@@ -1,30 +1,29 @@
 {{ define "stylesheets" }}
-<link rel="stylesheet" href="/css/about.css" /> 
+<link rel="stylesheet" href="/css/update.css" />
 {{ end }}
 
+
 {{ define "main" }}
-
-<div class="splash-container">
-  <div class="splash">
-    
-    <h1><span class="fancy">Hi, </span>{{ .Params.heading }}</h1>
-    {{ if isset .Params "handle" }}
-    <!-- <span class="handle">@{{ .Params.handle }}</span> -->
+<div class="main">
+<div class="post">
+  <header class="post__header">
+    <h1 class="post__title"><span class="fancy">Hi, </span>{{.Params.Heading}}</h1>
+  </header>
+  <article class="post__content">
+    {{ .Content }}
+    {{ if or .Params.math .Site.Params.math }}
+      {{ partial "math.html" . }}
     {{ end }}
-    <!-- <p>
-      {{ .Params.subheading }}
-    </p> -->
-    <br>
-    <p>
-      {{ .Content}}
-    </p>
-
-    {{ partial "social-icons.html" .}}
-    <br> <br> <br>
-    
-    <!-- <p align="right"> <span class="fancy">{{.Params.note}}</span></p> -->
-  </div>
-</div>
-<!-- <a class="button" href="/blog"></button> </a> -->
-
+  </article>
+  <!-- {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}} -->
+<!-- </div>
+{{ .TableOfContents }}
+</div> -->
+{{ end }} {{ define "footer" }}
+<footer>
+  {{ partial "social-icons.html" .}}
+  <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+</footer>
+{{ end }} {{ define "scripts" }}
+<script src="/vendor/prism/prism.js"></script>
 {{ end }}
