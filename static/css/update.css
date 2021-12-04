@@ -617,6 +617,7 @@ pre[class*="language-"] {
   width: 100%;
   max-width: 39rem;
   margin: 0 auto;
+  margin-top: 60px;
 }
 
 .post h2,
@@ -694,7 +695,10 @@ pre[class*="language-"] {
 }
 
 .post__title {
+  font-size: 3em;
   margin-top: 0;
+  padding-bottom: 20px;
+  padding-top: 0;
 }
 
 .post__date {
@@ -923,7 +927,7 @@ footer p {
 }
 
 #TableOfContents ul{
-  list-style-type: none; 
+  list-style-type: none;
   margin: 0;
   padding-top: 0rem;
   padding-right: 1.4rem;
@@ -931,13 +935,17 @@ footer p {
 
 #TableOfContents li{
   text-transform: lowercase;
-  list-style-type: none; 
+  list-style-type: none;
   font-size: 16px;
   padding: 0.9rem 0;
   margin: 0;
   text-align: right;
   line-height: 1.5em;
   font-weight: 500;
+}
+
+.fancy {
+  color: rgba(0, 162, 255, 0.801)
 }
 
 #TableOfContents li:first-child{
@@ -969,8 +977,11 @@ footer p {
   animation: 1s animate-wrap;
 }
 
-@media screen and (max-width: 1000px) 
+@media screen and (max-width: 1000px)
 {
+  .post__title {
+    font-size: 2.5em;
+  }
   #TableOfContents {
     display: none;
   }
