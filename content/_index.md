@@ -8,9 +8,9 @@ note: "From AMKS with ❤️"
 
 I'm currently studying Computer Science and Economics at the University of California, Berkeley. You can see the classes I've taken [here](/s/classes). I spend my free time:
 
-- **Teaching the next generation of computer scientists**: I've taught Berkeley's [Introduction to CS](https://cs61a.org) and [Data Structures](https://datastructur.es) classes. I've also founded the Introduction to Full Stack Development [student-run](https://fullstackdecal.com) course.
-
 - **Helping build the Berkeley startup ecosystem**: Over the last year, I've run  Berkeley's Student Entrepreneurship [Program](https://step.berkeley.edu), Cal Hacks's [Fellowship](https://fellowship.calhacks.io) Program, and Berkeley's [BEGIN](https://begin.berkeley.edu) Innovation program. If you want to dive into startups and entrepreneurship, drop me a line!
+
+- **Teaching the next generation of computer scientists**: I've taught Berkeley's [Introduction to CS](https://cs61a.org) and [Data Structures](https://datastructur.es) classes. I've also founded the Introduction to Full Stack Development [student-run](https://fullstackdecal.com) course.
 
 - **Hacking away at ideas**: I help run the university's flagship hackathon at [Cal Hacks](https://calhacks.io) and foster web-development projects at [Web Dev at Berkeley](https://webatberkeley.org). In whatever downtime I have left, I try to [build and re-build](/s/projects) tools and technology.
 
