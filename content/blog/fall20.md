@@ -6,7 +6,7 @@ slug: "fall20"
 description: "Well. That was certainly something."
 keywords: ["life"]
 draft: false
-tags: []
+tags: ["life"]
 stylesheet: "post.css"
 ---
 For anyone reading this in the distant future, hello! This article was written in the strange times of the coronavirus. All of humanity has been socially isolated and "working from home" for over nine months at present time. Dystopia is dreadfully boring.
