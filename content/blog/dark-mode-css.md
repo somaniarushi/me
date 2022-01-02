@@ -6,7 +6,7 @@ description: "On the path of finding the correct way of doing this, I stumbled u
 keywords: ["web-development", "vanilla", "css", "toggle", "tutorial", "teaching", "walkthrough"]
 draft: false
 location: "Berkeley, USA"
-tags: ["web-development"]
+tags: ["projects"]
 stylesheet: "post.css"
 ---
 
@@ -43,8 +43,8 @@ First, let's set up the HTML file, a [checkbox](https://developer.mozilla.org/en
         <title>
             Introduction
         </title>
-        <link rel="stylesheet" href="dark-mode.css"> 
-    </head> 
+        <link rel="stylesheet" href="dark-mode.css">
+    </head>
     <body>
         <input type="checkbox" id="cb" />
         <div id="wrapper">
@@ -57,7 +57,7 @@ First, let's set up the HTML file, a [checkbox](https://developer.mozilla.org/en
     </body>
 </html>
  ```
-Quite boring till now. No worries! CSS is where the magic happens. 
+Quite boring till now. No worries! CSS is where the magic happens.
 
 Let's set up a css file now, and link it in the header of the HTML file that we'd left blank earlier. *(Don't forget!)* Then, let's begin the css file by removing the standard checkbox, and adding style to the label.
 ```
@@ -125,19 +125,19 @@ We can do the same thing with all kinds of selectors, as long as they're in the 
   #cb:checked + #wrapper li {
     color: #f0f0f0e5;
   }
-  
+
   #cb:checked + #wrapper a {
     color: rgba(143, 194, 253, 0.829);
   }
-  
+
   #cb:checked + #wrapper a:hover {
     color: rgba(59, 140, 233, 0.829);
     transition: all 0.2s ease-in;
   }
-  
+
   #cb:checked + #wrapper code {
     background-color: rgba(143, 194, 253, 0.233);
-  } 
+  }
 ```
 
 ### Storing Last Preference
@@ -146,8 +146,8 @@ Across different pages and multiple visits, we want to be able to save that info
 First, let's import [jQuery](https://jquery.com/) in our HTML file. Then, create a JS file and insert it into the HTML file.
 ```
 <html>
-    <head> 
-        ... 
+    <head>
+        ...
         <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     </head>
     <body>
@@ -159,7 +159,7 @@ In the dark mode javascript file, we run a function when the document gets ready
 ```
   $(document).ready(onReady);
 ```
-In this function, we want to store a variable in [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage). 
+In this function, we want to store a variable in [`localStorage`](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
 ```
  function onReady() {
     let checked="true"==localStorage.getItem("checked");

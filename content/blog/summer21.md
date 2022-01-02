@@ -5,7 +5,7 @@ slug: "summer21"
 description: "A look back at my first summer not studying!"
 keywords: ["college", "retrospect", "summer 2020"]
 draft: false
-tags: []
+tags: ["life"]
 location: "Berkeley, USA"
 stylesheet: "post.css"
 ---

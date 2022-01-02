@@ -12,7 +12,7 @@ stylesheet: "post.css"
 
 ### What is JSX?
 
-It is a syntax extension to JavaScript. JSX may remind you of a template language, but it comes with the full power of JavaScript. After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects. 
+It is a syntax extension to JavaScript. JSX may remind you of a template language, but it comes with the full power of JavaScript. After compilation, JSX expressions become regular JavaScript function calls and evaluate to JavaScript objects.
 
 ```
 function displayDetails(user) {
@@ -50,11 +50,11 @@ function displayDetails(user) {
 }
 ```
 
-Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names. 
+Since JSX is closer to JavaScript than to HTML, React DOM uses camelCase property naming convention instead of HTML attribute names.
 
 ## What is Happening in JSX Behind the Scenes?
 
-Why can HTML exist in JS? What is JSX doing such that we can do all of these crazy things? The trick is to realize that JSX represents objects –– Babel compiles JSX down to  `React.createElement()`  calls.
+Why can HTML exist in JS? What is JSX doing such that we can do all of these crazy things? The trick is to realize that JSX represents objects –– Babel compiles JSX down to `React.createElement()` calls.
 
 ### What is Babel?
 

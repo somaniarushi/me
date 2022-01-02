@@ -4,7 +4,7 @@ description: "Peeking Under The Hood of a Popular JS Class"
 date: 2020-12-08T18:02:07-08:00
 slug: "promises"
 keywords: []
-tags: ["web-development", "teaching"]
+tags: ["teaching"]
 stylesheet: "post.css"
 location: "Lucknow, India"
 draft: false
@@ -14,7 +14,7 @@ The Promise class is one of the most notoriously black-boxed tools in Javascript
 
 I made a small Promise class to try to understand. The complete implementation [is at the end](#bringing-it-all-together) of this article.
 
-This article assumes some familiarity with the concept of Promises. **If you're unfamiliar with Promises, I'd highly consider checking out [this wonderful guide](https://javascript.info/promise-basics).** 
+This article assumes some familiarity with the concept of Promises. **If you're unfamiliar with Promises, I'd highly consider checking out [this wonderful guide](https://javascript.info/promise-basics).**
 
 
 
@@ -51,7 +51,7 @@ class Promise {
     }
 }
 ```
-Let's also write the `reject` and `resolve` function, which will be passed into the `executor` function. 
+Let's also write the `reject` and `resolve` function, which will be passed into the `executor` function.
 
 ```
 class Promise {
@@ -76,7 +76,7 @@ class Promise {
 }
 ```
 
-Either `reject` or `resolve` will be called in the body of the executor. The called function will update the state of the Promise object by changing the value of `outcome`. 
+Either `reject` or `resolve` will be called in the body of the executor. The called function will update the state of the Promise object by changing the value of `outcome`.
 
 > We are achieving asynchronicity through callback functions.
 
@@ -92,7 +92,7 @@ class Promise {
     }
     ...
 }
-``` 
+```
 The problem: if the `then` function is called, and the Promise is not settled, `this.outcome` will be null, and would cause an error. We may be able to manage this by checking if `outcome==null`. If it is `null`, we can set a wait time, after which we will check again.
 ```
 class Promise {
@@ -114,9 +114,9 @@ However, if `this.outcome == null`, we will end up with no return statement and 
 
 ## The Catch 22
 
-The `then` function cannot create a Promise until the previous Promise has been settled. **Thus, it has to wait.** 
+The `then` function cannot create a Promise until the previous Promise has been settled. **Thus, it has to wait.**
 
-The `then` function always has to return a Promise when it is called. **Thus, it cannot wait.** 
+The `then` function always has to return a Promise when it is called. **Thus, it cannot wait.**
 
 A new Promise cannot be created until the previous one has been settled, but a Promise has to be returned. This leaves us only one choice.
 
@@ -161,7 +161,7 @@ class Promise {
     ...
 
     callThen() {
-        if (this.thenFunction) 
+        if (this.thenFunction)
             this.outcome.value = this.thenFunction(this.outcome.value);
     }
     ...
@@ -263,7 +263,7 @@ Because of this, parellel `then` calls will not work as intended:
 promise.then((val) => val+"2");
 promise.then((val) => val+ "3");
 ```
-The second `then` function should return `value3`, but would return `value23`. The fix for this would be to distinguish `then` chaining and parellel `then`s, which this implementation does not do. 
+The second `then` function should return `value3`, but would return `value23`. The fix for this would be to distinguish `then` chaining and parellel `then`s, which this implementation does not do.
 
 If anyone is interested in writing an extension to this implementation, incorporating rejections and fixing other faults, feel free to [send me a pull request on the repo](https://github.com/somaniarushi/promises).
 

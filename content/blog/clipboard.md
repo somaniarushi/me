@@ -6,13 +6,13 @@ description: "And some other things I copy and pasted."
 location: "Lucknow, India"
 keywords: ["web-development", "clipboard", "research", "hacking"]
 draft: false
-tags: ["web-development"]
+tags: ["teaching"]
 stylesheet: "post.css"
 ---
 
 Last weekend, I made a private clipboard. You can play with it [here](https://clippy.amks.me) and I explain the process of making it in this blog!
 
-&#8984;+C. &#8984;+V. I do this way too many times a day, at an instinctual level. I don't know when I learned how to copy and paste, but it certainly feels like I've known it all my life. The clipboard is probably the most widely used shortcut on the keyboard. 
+&#8984;+C. &#8984;+V. I do this way too many times a day, at an instinctual level. I don't know when I learned how to copy and paste, but it certainly feels like I've known it all my life. The clipboard is probably the most widely used shortcut on the keyboard.
 
 But how does it really work?
 
@@ -25,9 +25,9 @@ You could copy the entire works of Shakespeare onto the clipboard and it wouldn'
 
 ## Clipboard Preserves Formatting
 
-The clipboard is deceptively simple. Ever wonder how the clipboard can save images, text, files, emails? 
+The clipboard is deceptively simple. Ever wonder how the clipboard can save images, text, files, emails?
 
-The clipboard is designed to recognize and hold many different types of data. Text is held in the (appropriately named) text format, images in the TIFF format, and so on. When copying a local document, it does not copy over the document itself but a reference to the _item_ itself. 
+The clipboard is designed to recognize and hold many different types of data. Text is held in the (appropriately named) text format, images in the TIFF format, and so on. When copying a local document, it does not copy over the document itself but a reference to the _item_ itself.
 
 The clipboard is also careful to preserve these formats in some places while discarding them in others. Text pasted in a markdown file is unstyled, while that in a word document is left styled. Images can't be pasted in the markdown file, but are easily added to the word doc. These decisions are made by the clipboard.
 
@@ -35,9 +35,9 @@ The clipboard is also careful to preserve these formats in some places while dis
 There is painfully limited documentation available on how the clipboard works, most of it linked below. In essence, both Apple and Microsoft describe a few functions that dictates the clipboard's actions (`Open`, `Copy`, `Paste`, `Close`) and some notes about how best to utilize the clipboard when coding functionally.
 
 ## Making My Own Clipboard
-When finding ways to manipulate the clipboard seemed difficult to find, I started wondering what it would take to make a simple clipboard, without the formatting complications. 
+When finding ways to manipulate the clipboard seemed difficult to find, I started wondering what it would take to make a simple clipboard, without the formatting complications.
 
-A **Clippy**, if you will. 
+A **Clippy**, if you will.
 
 My core realization was that, mathematically, the clipboard was a simple state variable updated based on some condition. In a lot of languages, this is as simple as a one line declaration. The power of the clipboard is its ability to work across platforms.
 

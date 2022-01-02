@@ -6,11 +6,11 @@ description: "My contribution to making every website low light."
 keywords: ["web-development", "UI/UX-design", "react", "dark mode", "toggle", "tutorial", "education"]
 draft: false
 location: "Berkeley, USA"
-tags: ["web-development", "ui/ux-design"]
+tags: ["projects"]
 stylesheet: "post.css"
 ---
 
-I've always been a light mode person. I like the cleanliness of it. 
+I've always been a light mode person. I like the cleanliness of it.
 
 But I've recently developed a fascination with dark mode. It's a feature which has been getting [progressively more accepted]((https://in.mashable.com/tech/9192/heres-why-2019-was-the-year-of-dark-mode)) into the internet development community. The following products went low light in the last couple years: apple, facebook, youtube, instagram, twitter, gmail, slack, soundcloud, google chrome. [Here's a convenient exhaustive list.](darkmodelist.com)
 

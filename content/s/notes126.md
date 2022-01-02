@@ -6,11 +6,10 @@ description: "For the curious."
 keywords: ["berkeley", "eecs126", "notes", "random processes", "probability"]
 location: "Berkeley, USA"
 draft: false
-tags: ["eecs126", "classes"]
 stylesheet: "post.css"
 math: true
 ---
-This page is a collection of all theorems taught in EECS126: Probability and Random Processes, Spring 2021. A good reference! 
+This page is a collection of all theorems taught in EECS126: Probability and Random Processes, Spring 2021. A good reference!
 
 Link to PDF version [here](/pdf/eecs126.pdf).
 
@@ -53,7 +52,7 @@ $${n\choose n_1, n_2... n_k} = \frac{n!}{n_1! n_2!...n_k!}$$
 $$
 \begin{aligned}
 P(X = k) = \begin{cases}
-1  & \text{ with probability } p \newline 
+1  & \text{ with probability } p \newline
 0  & \text{ with probability } 1-p
 \end{cases}
 \end{aligned}
@@ -143,7 +142,7 @@ $$\rho(X, Y) = \frac{cov(X,Y)}{\sqrt{Var(X)Var(Y)}}$$
 $$|\rho| \leq 1$$
 
 1.  Variance of Two Independent Variables
-   
+
 $$Var[XY] = \mathbb{E}[X^2]\mathbb{E}[Y^2] - \mathbb{E}[X]^2\mathbb{E}[Y]^2$$
 
 1.  Law of Total Variance
@@ -283,7 +282,7 @@ $$M_Y(s) = M_X(sa) = \exp{(s(a^T\mu_x) +\frac{1}{2}s^2a^T\Sigma a)}$$
 ## Bounds
 
 1.  Markov Inequality
-  
+
 $$P(X \geq a) \leq \frac{\mathbb{E}[X]}{a}$$
 
 1.  Chebyshev's Inequality
@@ -297,7 +296,7 @@ $$P(X \leq a) \leq \frac{M(s)}{e^{sa}} \text{ , $s \leq 0$}$$
 $$f(\mathbb{E}(x)) \leq \mathbb{E}[f(x)] \text{ , f is convex, $f''(x) > 0$}$$
 
 1.  Weak Law of Large Numbers
-  
+
 $$\lim_{n \xrightarrow{} \infty} P(|\frac{1}{n}\sum_{i=1}^{n}X_i - \mathbb{E}[X]| \geq \epsilon) = 0$$
 
 1.  Strong Law of Large Numbers
@@ -339,7 +338,7 @@ $$-\frac{1}{n} \log p(x_1, x_2... x_n) \xrightarrow{p} H(X)$$
 ## Information Theory
 
 1.  Source Coding Theorem \
-As $n \xrightarrow{} \infty$, consider N iid RVs with entropy $H(X)$. You can compress this into no more and no less than $NH(X)$ bits without sending over extra bits or losing information. 
+As $n \xrightarrow{} \infty$, consider N iid RVs with entropy $H(X)$. You can compress this into no more and no less than $NH(X)$ bits without sending over extra bits or losing information.
 
 1.  Channel Coding Theorem \
 Define channel capacity as the $\frac{ \text{# of message input bits}}{\text{# of bits transmitted}}$. Any sequence of codes with error probability $p \xrightarrow{} 0$ has a rate R $<$ capacity.
@@ -420,7 +419,7 @@ $$f_{T_n}(s) = \frac{\lambda e^{-\lambda s}(\lambda s)^{n-1}}{(n-1)!}$$
 $$N_{T_i} - N_{T_{i-1}} \sim Poisson(\lambda (t_i - t_{i-1}))$$
 
 1.  Poisson Merging
-$$PP(\lambda_1) + PP(\lambda_2) \sim PP(\lambda_1 + 
+$$PP(\lambda_1) + PP(\lambda_2) \sim PP(\lambda_1 +
 \lambda_2)$$
 
 1.  Poisson Splitting
@@ -519,7 +518,7 @@ $$
 1.  MAP of a BSC
 $$
 \begin{equation*}
-\text{MAP}(X | Y = y) = 
+\text{MAP}(X | Y = y) =
 \begin{cases}
 0 &\ \text{if } L(y) < \frac{\pi_0}{\pi_1} \newline
 1 &\ \text{if } L(y) \geq \frac{\pi_0}{\pi_1}
@@ -532,7 +531,7 @@ $$L(y) = \exp{[\frac{y}{\sigma^2} - \frac{1}{2\sigma^2}]}$$
 
 1.  MAP for $X\in \{0, 1\}$ with Gaussian Noise
 $$
-\text{MAP}(X | Y = y) = 
+\text{MAP}(X | Y = y) =
 \begin{cases}
 0 &\ \text{if } L(y) < \frac{\pi_0}{\pi_1} = y \geq \frac{1}{2} + \sigma^2 log(\frac{\pi_0}{\pi_1}) \newline
 1 &\ \text{if } L(y) \geq \frac{\pi_0}{\pi_1}
@@ -560,10 +559,10 @@ $$
   &\hat{X} = \begin{cases}
       1\ &  L(y) > \lambda \newline
       0\ & L(y) < \lambda \newline
-      Bern(\gamma)\ & L(y) = \lambda 
+      Bern(\gamma)\ & L(y) = \lambda
     \end{cases} \newline
   &\text{Setting } P(\hat{X} = 1 | X = 0) = \beta
-\end{aligned}  
+\end{aligned}
 $$
 
 ## Estimations
@@ -574,7 +573,7 @@ $$\mathbb{E}[(X - \hat{X}(Y))^2]$$
 1.  Minimum Mean-Squared Estimation (MMSE)
 $$\text{MMSE}(X|Y) = \text{argmin}_{\hat{X}}\mathbb{E}[(X - \hat{X}(Y))^2] = \mathbb{E}(X|Y)$$
 
-1.  MMSE Theorem 
+1.  MMSE Theorem
 $$E[(X-g(Y))f(Y)] = 0 \ \forall f \implies g(Y) = \text{ MMSE}$$
 
 1.  Linear Least Squares Estimation
@@ -610,7 +609,7 @@ $$
 $$
 
 1.  Orthogonality Principle
-   
+
 $$
 \begin{aligned}
   &\mathbb{E}(\mathbb{L}[X|Y]) = \mathbb{E}[X] \newline
@@ -628,6 +627,6 @@ $$
   &\text{Let X, Y, Z zero-mean} \newline
   &L[X|Y, Z] = L[X|Y] - L[X|Z - L[Z|Y]] \newline
   &L[X|Y, Z] = L[X|Y] - L[X|Z] \text { if Y, Z uncorrelated}
-\end{aligned}  
+\end{aligned}
 $$
 

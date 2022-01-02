@@ -4,12 +4,12 @@ description: "A Gentle Introduction to React"
 date: 2020-12-08T17:02:40-08:00
 location: "Lucknow, India"
 slug: "react1"
-keywords: ["react", "web development", "tutorial"]
-tags: ["web-development", "teaching"]
+keywords: ["web-development"]
+tags: ["teaching"]
 draft: false
 ---
 
-This series of notes was used to teach students at Berkeley in the fall of 2020. 
+This series of notes was used to teach students at Berkeley in the fall of 2020.
 
 Unlike many other tutorials across the internet, this tutorial uses a bottom-up approach to React, going through the basics of different react functionalities before implementing them. It pulls back the layer of abstraction around React tools to deeply understand how they work.
 
@@ -59,7 +59,7 @@ npm is a package manager for the JavaScript programming language. It is the defa
 
 Create React App doesn’t handle backend logic or databases; it just creates a frontend build pipeline, so you can use it with any backend you want. Under the hood, it uses Babel and webpack, but you don’t need to know anything about them.
 
-Start your project by typing the following in the terminal: 
+Start your project by typing the following in the terminal:
 ```
 npx create-react-app my-app
 cd my-app

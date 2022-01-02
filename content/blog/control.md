@@ -4,7 +4,7 @@ description: "And Some Notes About How To Imagine The Interpreter"
 date: 2020-10-17T17:33:05-07:00
 slug: "cs61a-control"
 keywords: []
-tags: ["cs61a", "teaching"]
+tags: ["teaching"]
 stylesheet: "post.css"
 location: "Berkeley, USA"
 draft: false
@@ -14,7 +14,7 @@ This is written for the class [CS61A: The Structure and Interpretation of Comput
 To understand everything that 61A is trying to teach you, its important to understand the fundamental idea that everything is based on –– **how are Python programs executed?**
 
 ## Direct Control Flow
-In the simplest of functions, control simply flows downward.   
+In the simplest of functions, control simply flows downward.
 ```
 a = 3
 print(a) # prints 3
@@ -51,13 +51,13 @@ while (n < 4):
     print("Hello") # prints thrice
     n = n + 1
 ```
-The fundamental idea behind the loop is to do the same thing over and over again with small changes each time. 
-There are four parts to the loop –– 
-- the initial assignment (n = 1), 
-- the iterative condition (while n < 4), 
-- the execution (printing Hello) 
-- the updation (n = n + 1). 
-  
+The fundamental idea behind the loop is to do the same thing over and over again with small changes each time.
+There are four parts to the loop ––
+- the initial assignment (n = 1),
+- the iterative condition (while n < 4),
+- the execution (printing Hello)
+- the updation (n = n + 1).
+
 When we combine all four of these, we get a block of code that operates iteratively.
 
 ## Breaking Flow Of Control With Functions
@@ -73,7 +73,7 @@ print("Outside the function") # gets executed
 Try it out yourself in [Python Tutor](http://pythontutor.com/visualize.html#code=def%20f%28x%29%3A%0A%20%20%20%20print%28%22Inside%20the%20function%22%29%20%23%20doesn't%20get%20executed%0A%20%20%20%20return%20x%2B1%0A%0Aprint%28%22Outside%20the%20function%22%29%20%23%20gets%20executed&cumulative=false&curInstr=2&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false).
 
 So the function signature (that's the `def` line) is read, but not the function itself. The error inside the function doesn't execute, nor is the print statement. While the function's name and number
-of arguments are read and saved, the body of the function is not.  
+of arguments are read and saved, the body of the function is not.
 
 Now let's think about what happens when you call the function.
 ```
@@ -85,7 +85,7 @@ a = 3
 print(f(a)) # prints 4
 print(a) # prints 3
 ```
-First, we bind a function with one argument to f. Then, we bind a to 3. 
+First, we bind a function with one argument to f. Then, we bind a to 3.
 Then, we call f with a (which is 3).
 
 This call takes you out of your "main" control flow, and
@@ -95,7 +95,7 @@ terms of a *new frame.*
 In this frame, everything inside of the frame is accessible,
 and everything in all its parent frames is also accessible.
 Moreover, anything that gets passed into this frame is a new
-copy –– the x inside of the function is not the same as the a 
+copy –– the x inside of the function is not the same as the a
 that is passed in (This idea will grow in importance as the things
 we pass in get more and more complicated).
 
@@ -110,7 +110,7 @@ print(f(a)) # prints 4
 print(a) # prints 3
 ```
 
-As seen, the value a is accessible despite not being in the function's 
+As seen, the value a is accessible despite not being in the function's
 flow, because it is in the parent flow. Of course, x itself is accessible.
 Changing x does not change a, because x is an independent copy of a.
 
@@ -119,7 +119,7 @@ The return value ends the function's frame and leads you back into
 the main flow ("global frame"). Even functions that don't explicitly
 have a return value have an implicit `return None` statement.
 
-When the function returns to its own frame, it brings a value with it, and 
+When the function returns to its own frame, it brings a value with it, and
 normal control flow resumes.
 
 ## Frames Are Independent Of Each Other
@@ -132,7 +132,7 @@ return x
 a = 3
 print(f(a)) # Print 1
 print(a) # Print 2
-```     
+```
 
 What do you think will be printed?
 
@@ -143,9 +143,10 @@ the function is completely different from the a that is defined before the
 function call. That's right –– there are two different `a`s existing!
 
 
-This is what I mean by "the independence of frames". That is to say, a different 
+This is what I mean by "the independence of frames". That is to say, a different
 frame has its own defined variables that may have the same name as a parent frame.
+
+You can read more at
 
 
 <p align="right">Questions? Email <code>arushisomani@berkeley.edu</code></p>
-</article>

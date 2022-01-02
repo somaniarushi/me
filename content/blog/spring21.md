@@ -6,7 +6,7 @@ description: "Anotha one!"
 location: "Berkeley, USA"
 keywords: ["college", "retrospective"]
 draft: false
-tags: []
+tags: ["life"]
 stylesheet: "post.css"
 ---
 Writing this a little later than normal — mainly because of how much of a blur Spring 2021 was. It felt like I did nothing, despite doing a whole lot of things. This was perhaps the toughest COVID semester, and I'm glad that things are returning to normal now. Regardless, he's what I did this spring!
@@ -24,7 +24,7 @@ I'm working as a Web Developer and Marketing Specialist for Berkeley SCET's [Gat
 I ran the Cal Hacks [Fellowship Program](https://fellowship.calhacks.io) this semester, which was a wonderful experience. While shouldering a lot of responsiblity and trying to help 7 startups accelerate their projects, I grew a lot as a manager and director. Running Fellowship has been one of the most rewarding aspects of my college career. You can learn more about the teams [here](https://fellowship.calhacks.io).
 
 ## Web Development Educator
-I taught the Intro to Web Development course for [Web Development at Berkeley](https://webatberkeley.org). It's always fun to introduce others to a means of expression like web development, then see them evolve their style and start expressing themselves. We taught 40 students this semester — double from last semester! I'm excited to continue scaling this class up and work towards creating a lower barrier for web dev for everyone in Berkeley. 
+I taught the Intro to Web Development course for [Web Development at Berkeley](https://webatberkeley.org). It's always fun to introduce others to a means of expression like web development, then see them evolve their style and start expressing themselves. We taught 40 students this semester — double from last semester! I'm excited to continue scaling this class up and work towards creating a lower barrier for web dev for everyone in Berkeley.
 
 
 ## Previous Abouts
