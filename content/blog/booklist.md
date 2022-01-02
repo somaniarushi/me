@@ -5,7 +5,7 @@ slug: "books"
 description: "I started reading, and then I read some more."
 location: "Berkeley, USA"
 keywords: []
-draft: false
+draft: true
 tags: []
 stylesheet: "post.css"
 ---
