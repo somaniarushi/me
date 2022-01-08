@@ -75,4 +75,5 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Have a vacation place in Tahoe
 - Do a pullup
 - Make my own social media platform
+- Win the [Ig Nobel](https://en.wikipedia.org/wiki/Ig_Nobel_Prize) Prize
 
