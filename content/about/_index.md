@@ -1,21 +1,21 @@
 ---
-title: "About Me, Fall 2021 💪"
+title: "About Me, Spring 2022 💪"
 ---
 
 ## Education
-This fall, I'm learning about Operating Systems and Systems Programming, Optimization Models in Engineering, and Microeconomics. I'm also taking a course in the Ethics and Social Implications of Computer Science!
+This fall, I'm learning about [Artificial Intelligence](http://ai.berkeley.edu/home.html), [Machine Learning](https://www.eecs189.org/), and [the Foundations of Computer Graphics](https://cs184.eecs.berkeley.edu/sp21). I'm also learning about the fundamentals of [scientific thinking](http://sensesensibilityscience.com/)!
 
-## Teaching
-I'm back to teaching CS61A this semester! Take a peek at my [personal website for the class](https://cs61a.amks.me) for some insight into what goes into running an advanced discussion section. I'm also an instructor for the [Introduction to Full Stack Development Decal](https://fullstackdecal.com) here at Berkeley, a computer science class that teaches students the principles of web development and design.
-
-## BEGIN Developer
-I'm working as a Web Developer and Marketing Specialist for Berkeley SCET's [Gateway To Innovation Program](https://begin.berkeley.edu)! It's an exciting prospect to be able to help introduce people to the startup space around Berkeley and create a community of innovators and entrepreneurs!
+## Research
+I'm taking a semester off from my other obligations to invest some time in research! I'm particularly interested in the intersection of Programming Systems and Artificial Intelligence, and how the two interact with one another. I'm researching program synthesis under [Koushik Sen](http://people.eecs.berkeley.edu/~ksen/?rnd=1643929000614) this semester, on the [AutoPandas](http://autopandas.io/) project!
 
 ## Cal Hacks
-Code. Build. Hack. This semester, I'm helping bring back the world's biggest collegiate hackathon, [Cal Hacks](https://calhacks.io), back to Berkeley. If you're reading this, you probably enjoy making things! [You should apply to join Cal Hacks 8.0!](https://apply.calhacks.io).
+`Code. Build. Hack.` This semester, I'm helping [Cal Hacks](https://calhacks.io) lead the charge with developing and launching new initiatives, and helping out at the [Fellowship](https://fellowship.calhacks.io) program.
 
 ## Recruiting
-Not much to say here, except that I'm recruiting for the summer of 2022. If anything here interests you, [drop me a line](mailto:arushisomani@berkeley.edu).
+Not much to say here, except that I'm currently actively recruiting, for spring as well as summer. If anything here interests you, [drop me a line](mailto:arushisomani@berkeley.edu).
+
+## Hobbies
+Recommend me [a book](https://goodreads.com/amks), play squash or basketball with me, or schedule a jam session with me this semester!
 
 ## Previous Abouts
-Check out what I did [last summer](/blog/summer21/) or [last spring](/blog/spring21/)!
+Check out what I did [last fall](/blog/fall21/) or [last summer](/blog/summer21/)!
