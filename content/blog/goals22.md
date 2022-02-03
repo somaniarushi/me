@@ -76,6 +76,8 @@ Can be many, can be one, can be specific, can be vague. Doesn't matter — send 
 
 I, for one, am pretty excited to meet the 2023 version of me.
 
+### Part 5: Accountability
+Read my [January updates](/s/jan22).
 
 
 
