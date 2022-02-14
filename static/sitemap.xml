@@ -8,84 +8,219 @@
 
 
 <url>
-  <loc>https://www.amks.me/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/about/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/about/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/resume.pdf</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/s/projects/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/teaching/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/resume.pdf</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/summer-2020-retrospective/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/s/classes/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/fall21/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/teaching/cs61a-practise/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/summer21/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/tags/cs61a/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/intl/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/teaching/apis/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/goals22/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/tags/web-development/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/spring21/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/teaching/cs61a-control/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/indigo/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/tags/ui/ux-design/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/fall20/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/clipboard/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/promises/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/css-does-strange-things/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/react1/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/dark-like-my-soul/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/clipboard/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.amks.me/blog/hullo/</loc>
-  <lastmod>2020-11-14T20:32:54+00:00</lastmod>
+  <loc>https://amks.me/blog/cs61a-practise/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/apis/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/cs61a-control/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/summer20/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/dark-mode-css/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/dark-mode/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/hullo/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/analysis/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/life/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/projects/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/teaching/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://amks.me/s/bucketlist/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://amks.me/s/jan22/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://amks.me/newsletter/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/dark-like-my-soul/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://amks.me/projects/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://amks.me/teaching/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/css-does-strange-things/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://amks.me/teaching/promises/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/teaching/cs61a-practise/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/teaching/apis/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/teaching/cs61a-control/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/cs61a/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/music/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/ui/ux-design/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/tags/web-development/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://amks.me/blog/beatles1/</loc>
+  <lastmod>2022-02-14T22:08:50+00:00</lastmod>
+  <priority>0.26</priority>
 </url>
 
 
