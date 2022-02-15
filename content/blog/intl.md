@@ -130,7 +130,7 @@ Invest in their passions once they find them, monetarily and time-wise. They nee
 Finally, the most important — don't set unrealistic expectations on your kid. They're just a kid. Please give them the liberty of fucking up.
 
 ## Conclusion
-This article talked majorly (and specifically) about the big picture stuff. There's so many more details to worry about — SATs, AP Scores, grades, extra-curriculars, yada yada. If you're reading this, you probably are already worrying about all of that. If you have any specific questions about any of those, drop me a line at `arushisomani@berkeley.edu`.
+This article talked majorly (and specifically) about the big picture stuff. There's so many more details to worry about — SATs, AP Scores, grades, extra-curriculars, yada yada. If you're reading this, you probably are already worrying about all of that. If you have any specific questions about any of those, drop me a line at `hi@amks.me`.
 
 And of course, all the best! You've got this.
 

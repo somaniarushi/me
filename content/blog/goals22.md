@@ -70,7 +70,7 @@ Eventually, I'd love to be able to spend the entire year living in different cit
 I find that doing things I'm scared of is a sure-fire way to do something that I'll eventually be proud of. I hope I'll be able to chase my fears into taking some meaningful actions this year. Another one that is quite vague, but perhaps a good place to start is with my [bucket list](/s/bucketlist).
 
 ## Part Four: Community and Courage
-As I mentioned above, this is the year I want to chase my passions *with other people*. That starts right here, with this list. If this is something you enjoyed reading, or perhaps took inspiration from, take a moment to drop me a line at `arushisomani@berkeley.edu` with your goals of the year.
+As I mentioned above, this is the year I want to chase my passions *with other people*. That starts right here, with this list. If this is something you enjoyed reading, or perhaps took inspiration from, take a moment to drop me a line at `hi@amks.me` with your goals of the year.
 
 Can be many, can be one, can be specific, can be vague. Doesn't matter — send it anyway. It will make me feel a little less alone in my endeavors to do better, and hopefully it will make you feel a little more compelled to chase after them.
 

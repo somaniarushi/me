@@ -53,5 +53,5 @@ ever find the time, read his hilarious book [Surely You're Joking, Mr. Feynmann]
 
 You'll probably hear me say this many, many times –– the concepts of CS are like building blocks –– the more you understand each block, the easier it is to place them together. I'd encourage you to ensure you know every ridge and dent in them: it makes for a much richer experience in every class.
 
-<p align="right">Questions? Email <code>arushisomani@berkeley.edu</code></p>
+<p align="right">Questions? Email <code>hi@amks.me</code></p>
 

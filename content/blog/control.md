@@ -149,4 +149,4 @@ frame has its own defined variables that may have the same name as a parent fram
 You can read more at
 
 
-<p align="right">Questions? Email <code>arushisomani@berkeley.edu</code></p>
+<p align="right">Questions? Email <code>hi@amks.me</code></p>
