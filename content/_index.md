@@ -16,7 +16,7 @@ I'm currently studying Computer Science and Economics at the University of Calif
 
 - **Learning everything I can**: I try to [read](https://goodreads.com/amks) as much as I can in my spare time. Sometimes I give writing [a shot](/blog) too. Give me a book recommendation and you'll have my friendship for life ♥
 
-You can see what I've been up to this semester [here](/about). Drop me a line at `arushisomani@berkeley.edu` if you ever want to chat, or grab some time off my calendar [here](https://go.amks.me/book).
+You can see what I've been up to this semester [here](/about). Drop me a line at `hi@amks.me` if you ever want to chat, or grab some time off my calendar [here](https://go.amks.me/book).
 
 
 
