@@ -5,7 +5,7 @@ slug: "party"
 description: "Or how I threw a 200 person frat party"
 keywords: ["college", "clubs", "berkeley"]
 location: "Berkeley, USA"
-draft: false
+draft: true
 tags: ["life"]
 stylesheet: "post.css"
 ---
