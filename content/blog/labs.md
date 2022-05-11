@@ -21,7 +21,8 @@ Most tech clubs, however, are organized around some common goal, like:
 - Create more product-driven engineers around Berkeley through product-design consulting
 - Create spaces for builders around campus
 - Accelerate startup ideas
-and more. Most of these communities are pretty young, created no more than 3-4 years ago, by students no different than us. There's no set of rules, or consitutions, or by-laws — the culture, structure, and initiatives of every organization can be easily ammended, and indeed improved as per necessary.
+
+and more. Most of these communities are pretty young, created no more than 3-4 years ago, by students no different than us. There's no set of rules, or consitutions, or by-laws — the culture, structure, and initiatives of every organization can be easily ammended, and indeed improved as per necessary. There's nothing we can't change, nothing we can't try.
 
 Despite all of this, I find that a lot of communities around Berkeley have a lot of inertia. There's an aversion to taking big risks, to trying new things that might fail. A lot of clubs let old strucutres persist, long after the culture around them has changed.
 
