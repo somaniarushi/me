@@ -3,7 +3,7 @@ title: "The Case for Creating Sandboxes in Communities"
 date: 2022-04-17T14:27:17-07:00
 slug: "labs"
 description: "The Importance of Failing"
-location: "Berkeley, USA"
+location: "Tahoe, USA"
 keywords: []
 draft: false
 tags: []
