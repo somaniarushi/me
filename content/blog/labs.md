@@ -73,7 +73,7 @@ I believe that running an internal experimental "labs" initiative is one of the 
 
 It's super simple to start Labs — you just need one person to care enough to do it.
 
-The most-remembered people in Berkeley, in my perspective, aren't those who had an infinite string of successes. It was the group of people who took the biggest swings — failures, successes, and otherwise. It was the group of people who _tried_. And yes— you take a lot of shit for messing up. But the respect you gain for trying far outweighs it, in my experience.
+The most-remembered people in Berkeley, in my perspective, aren't those who had an infinite string of successes. It was the group of people who took the biggest swings — failures, successes, and otherwise. It was the group of people who _tried_. And yes— you take a lot of shit for messing up. But the the impact you could have far outweighs it, in my experience.
 
 Are you the person willing to put yourself out there and take that risk?
 
