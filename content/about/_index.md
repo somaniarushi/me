@@ -1,21 +1,15 @@
 ---
-title: "About Me, Spring 2022 💪"
+title: "About Me, Summer 2022 💪"
 ---
 
-## Education
-This fall, I'm learning about [Artificial Intelligence](http://ai.berkeley.edu/home.html), [Machine Learning](https://www.eecs189.org/), and [the Foundations of Computer Graphics](https://cs184.eecs.berkeley.edu/sp21). I'm also learning about the fundamentals of [scientific thinking](http://sensesensibilityscience.com/)!
+## Internship
+This summer, I'm interning at [Vanta](https://vanta.com). Vanta works in security and compliance, with the mission to secure the internet. If you've ever gotten the "your password has been compromised" message from chrome, or the "sorry we leaked your data" email, Vanta wants to make that a thing of the past. They also just [raised a bunch](https://www.vanta.com/blog/vanta-announces-series-b) to bring the vision to life. I'm excited to contribute to that. I'm working on making the process of getting certified more automated and smooth this summer!
 
 ## Research
-I'm taking a semester off from my other obligations to invest some time in research! I'm particularly interested in the intersection of Programming Systems and Artificial Intelligence, and how the two interact with one another. I'm researching program synthesis under [Koushik Sen](http://people.eecs.berkeley.edu/~ksen/?rnd=1643929000614) this semester, on the [AutoPandas](http://autopandas.io/) project!
-
-## Cal Hacks
-`Code. Build. Hack.` This semester, I'm helping [Cal Hacks](https://calhacks.io) lead the charge with developing and launching new initiatives, and helping out at the [Fellowship](https://fellowship.calhacks.io) program.
-
-## Recruiting
-Not much to say here, except that I'm currently actively recruiting, for spring as well as summer. If anything here interests you, [drop me a line](mailto:arushisomani@berkeley.edu) at `hi@amks.me`.
+I'm also doing research in my free time! I'm working in the intersection of Programming Systems and Artificial Intelligence, and how the two interact with one another. Think: Github Copilot, but better. I'm researching program synthesis under [Koushik Sen](http://people.eecs.berkeley.edu/~ksen/?rnd=1643929000614) this semester, and starting to spin up my old project!
 
 ## Hobbies
-Recommend me [a book](https://goodreads.com/amks), play squash or basketball with me, or schedule a jam session with me this semester!
+Recommend me [a book](https://goodreads.com/amks), come bouldering, play squash or basketball with me, or schedule a jam session with me this summer!
 
 ## Previous Abouts
-Check out what I did [last fall](/blog/fall21/) or [last summer](/blog/summer21/)!
+Check out what I did [last spring](/blog/spring22) or [last fall](/blog/fall21/).
