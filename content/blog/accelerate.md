@@ -28,7 +28,7 @@ Let's go back to our corrupt hare and tortoise story, but add one exception â€”Â
 
 ![](/images/race.png)
 
-I think of myself as this tortoise. I have a couple of accelerators, that help me pick up pace as I keep going at buliding a skill. Every day I wake up, I try to push myself a little bit harder than the previous day, feel the acceleration a little bit more.
+I think of myself as this tortoise. I have a couple of accelerators, that help me pick up pace as I keep going at buliding a skill. Every day I wake up, I try to push myself a little bit harder than the previous day, feel the acceleration a little bit more. It just takes time, but it _does_ take time. There is no miracle cure to being amazing. There is only ways to get better and better.
 
 You don't need to be the best. You don't even need to be good. All you need to be is accelerating, and you'll find yourself matching anyone's skill level in due time.
 
