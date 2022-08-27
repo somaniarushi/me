@@ -5,15 +5,13 @@ stylesheet: "post.css"
 
 ## News
 
-**08/28/2022**. Presented at [HackCon X](https://hackcon.mlh.io/), MLH's conference for hackathon organizers. See my presentation [here]().
+**08/28/2022**. Presented at [HackCon X](https://hackcon.mlh.io/), MLH's conference for hackathon organizers. See the presentation at [hackcon.lol](https://hackcon.lol).
 
-**08/19/2022**. Taught the CS workshop at UC Berkeley's Annual [Teaching Conference for Student Instructors](https://gsi.berkeley.edu/programs-services/conference/).
+**08/19/2022**. Taught the CS workshop at UC Berkeley's Annual [Teaching Conference for Student Instructors](https://gsi.berkeley.edu/programs-services/conference/). See my workshop [here](https://go.amks.me/workshop).
 
-**08/18/2022**. Featured as a panelist on the UC Berkeley's [Teaching Conference for International Student Instructors](https://gsi.berkeley.edu/programs-services/conference/fall-conference-information/).
+**08/18/2022**. Featured as a panelist on the UC Berkeley's [Teaching Conference](https://gsi.berkeley.edu/programs-services/conference/fall-conference-information/) for International Student Instructors.
 
 **08/14/2022**. Interviewed with Build the Future about Cal Hacks and the Berkeley entrepreneurship ecosystem at large. [Give it a read!](https://thefuture.build/guide/calhacks/)
-
-**08/05/2022**. Joined the [Neo Scholars](https://neo.com/) program.
 
 **06/01/2022**. Started my summer internship at [Vanta](https://vanta.com). Read about my work [here.](https://www.vanta.com/blog/meet-the-team-intern-arushi)
 
