@@ -1,6 +1,6 @@
 ---
 title: "Spring 2022 Retrospective"
-date: 2022-08-29T15:39:42-04:00
+date: 2022-07-29T15:39:42-04:00
 slug: "spring22"
 description: "A back-to-school semester, and what a wonderful one at that."
 location: "Berkeley, USA"
