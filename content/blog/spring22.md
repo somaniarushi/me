@@ -1,6 +1,6 @@
 ---
 title: "Spring 2022 Retrospective"
-date: 2022-07-29T15:39:42-04:00
+date: 2022-08-29T15:39:42-04:00
 slug: "spring22"
 description: "A back-to-school semester, and what a wonderful one at that."
 location: "Berkeley, USA"
@@ -10,7 +10,7 @@ tags: ["life"]
 stylesheet: "post.css"
 ---
 
-This spring was a wonderful semester — one where we were (FINALLY) back in person! I really enjoyed being back in-person, living it up with my friends, making moves and starting new trends and events. As college starts to come to a close, I think a lot more about what I want to leave behind, and I've started to focus in on what I really am passionate about. Uncertainty still abounds, but I'm prepared to full send a lot more things. 
+This spring was a wonderful semester — one where we were (FINALLY) back in person! I really enjoyed being back in-person, living it up with my friends, making moves and starting new trends and events. As college starts to come to a close, I think a lot more about what I want to leave behind, and I've started to focus in on what I really am passionate about. Uncertainty still abounds, but I'm prepared to full send a lot more things.
 
 ## Education
 This fall, I took a bunch of technical classes. While this meant I felt perpetually exhausted, I also learned a whole lot. I picked up some knowledge about [Artificial Intelligence](http://ai.berkeley.edu/home.html), [Machine Learning](https://www.eecs189.org/), and [Computer Graphics](https://cs184.eecs.berkeley.edu/sp21). These classes were very fun, and solidified for me that I probably want to work on some AI/ML related fields. I am also very happy I took Berkeley's class about developing [scientific thinking](http://sensesensibilityscience.com/)— while I don't think the class taught anything I didn't know subconsciously, I'm very grateful to it for giving me formal frameworks about thinking better.

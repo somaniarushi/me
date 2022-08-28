@@ -1,6 +1,6 @@
 ---
 title: "A Comprehensive Gym Routine"
-date: 2022-07-19T23:02:05-04:00
+date: 2022-08-10T23:02:05-04:00
 slug: "fit"
 description: "A guide to exercising that 'just works'"
 keywords: ['exercising', 'fitness', 'gym routine']
