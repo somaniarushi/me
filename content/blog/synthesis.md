@@ -1,7 +1,7 @@
 ---
 title: "Talking to Machines: Interfaces for Program Synthesis"
 date: 2022-09-03T09:34:09-07:00
-slug: "synthesus"
+slug: "synthesis"
 description: "Current problems, and where the industry is headed"
 keywords: []
 location: "San Francisco, CA"
