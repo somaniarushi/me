@@ -5,6 +5,8 @@ stylesheet: "post.css"
 
 ## News
 
+**9/30/2022** Presented my research into Program Synthesis at the Neo Scholars annual event!
+
 **08/28/2022**. Presented at [HackCon X](https://hackcon.mlh.io/), MLH's conference for hackathon organizers. See the presentation at [hackcon.lol](https://hackcon.lol).
 
 **08/19/2022**. Taught the CS workshop at UC Berkeley's Annual [Teaching Conference for Student Instructors](https://gsi.berkeley.edu/programs-services/conference/). See my workshop [here](https://go.amks.me/workshop).
