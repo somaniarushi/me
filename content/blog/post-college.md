@@ -50,7 +50,7 @@ I also worry that, as a new grad, I'd be boxed into doing work that is tangentia
 This diversity of experience in a single job is, in my opinion, **only possible at a startup, or an independent sub-division of a bigger firm**, which is what I'm primarly looking for.
 
 ## In-Person >>
-I believe that, especially as a new grad, the amount of mentorship, exposure, and help that one gets in an in-person environment can simply not be matched by a remote position. The chance to bond with my co-workers doesn't hurt either! I want to work in a position where I get to co-exist with my colleagues at least 3 times a week.
+I believe that, especially as a new grad, the amount of mentorship, exposure, and help that one gets in an in-person environment can simply not be matched by a remote position. The chance to bond with my co-workers doesn't hurt either! I want to work in a position where I get to co-exist with my colleagues.
 
 ## Conclusion: A Builder of Note
 As you read through this, you might perhaps notice the lack of filters based on standard success metrics — funding, stocks, compensation, promotion speed, so on and so forth. While these are not unimportant, these are not what I'm attempting to increase in the next five years.
