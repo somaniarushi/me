@@ -24,7 +24,7 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Get sloshed (?) at the Big C
 - Go busking on Berkeley Campus
 - Jump in the Berkeley Marina
-- Get an invitation to a private club/class
+- ~~Get an invitation to a private club/class~~
 - Become a student VC
 - ~~Take more units than allowed per semester~~
 - ~~Start a class/decal~~
@@ -50,7 +50,9 @@ This is my personal list of things to do on Planet Earth before either it or I d
 - Visit Paris
 - Visit Switzerland
 - Study in Oxford/Cambridge for a while
-- Run a half-marathon
+- ~~Run a half-marathon~~
+- Run a marathon
+- Run an ironman
 - ~~Take a hot air balloon ride~~
 - See the seven wonders of the modern world
 - See the *Aurora Borealis*
