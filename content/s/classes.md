@@ -8,12 +8,25 @@ draft: false
 tags: []
 stylesheet: "post.css"
 ---
+
+## Spring 2023
+- CS182: Introduction to Deep Neural Networks
+- CS294: Building User-Centric Programming Tools
+- ECON115: World Economy in the Twentieth Century
+- ECONC110: Game Theory
+
+## Fall 2022
+- CS186: Introduction to Databases
+- EECS151: Introduction to Digital Design
+- EECS151LB: Field-Programmable Gate Array Digital Design Lab
+- CS294: Special Topics in Program Synthesis
+- HISTORY30: Science and Society
+
 ## Spring 2022
 - CS188: Introduction to Artificial Intelligence
 - CS189: Introduction to Machine Learning
 - CS184: Introduction to Computer Graphics
 - L&S22: Sense, Sensibility and Science
-- ECON140: Econometrics
 
 ## Fall 2021
 - CS162: Operating Systems and Systems Programming
