@@ -5,7 +5,7 @@ slug: "new-grad"
 description: "Holding myself to high standards"
 keywords: ["new grad", "decisions", "thought-processes"]
 location: "Berkeley, USA"
-draft: true
+draft: false
 tags: ["life"]
 stylesheet: "post.css"
 ---
