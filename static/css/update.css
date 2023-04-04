@@ -669,7 +669,7 @@ pre[class*="language-"] {
 }
 
 .post__content a {
-  font-weight: 400;
+  /* font-weight: 400; */
   /* color: #0366d6; */
   text-decoration: none;
   border-bottom: 2px solid rgba(140, 191, 221, 0.582);
