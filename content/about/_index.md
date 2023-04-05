@@ -20,4 +20,4 @@ I spent a lot of time in college helping campus startups. This was through the B
 I. Love. Dungeons and Dragons!! Yes, yes, I know — an appropriately nerdy hobby. I ran a campaign for a couple years through college. Through D&D, I learned about game theory and interaction design, improv and comedy, a tiny bit of 3D modelling and a whole lot about patience. *Email me and I'll run a game for you. Deadass.*
 
 ## 🎶 Music
-I play the guitar sometimes. I'm shy about playing and I'm not very good and I'm not motivated enough to get better. But I like playing for myself. I love broadway music, pop, and the occassional indie rock.
+I play the guitar sometimes. I'm shy about playing and I'm not very good and I'm not motivated enough to get better. But I like playing for myself. I love broadway music, pop, and the occassional indie rock. I made some embarrassing [visualizations](https://wave.amks.me) of my music tastes.
