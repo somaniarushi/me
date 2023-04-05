@@ -1,13 +1,20 @@
 ---
 title: "Arushi Somani"
-heading: "I'm Arushi 👋"
-# subheading: "Most of this makes no sense."
+heading: "I'm Arushi "
 note: "From AMKS with ❤️"
 ---
-## I'm a serial tinkerer trying to build tomorrow's tech today.
+## I build things that help other people build what they love.
 
-I'm currently studying Computer Science and Economics at the University of California, Berkeley. You can see the classes I've taken [here](/s/classes). I spend my free time:
+Welcome to my little nook of the internet. A little bit about me:
 
+- 📓 Studied Computer Science at [UC Berkeley]()
+- 🤖 Building the future of automation as a Research Engineer @ [Adept AI Labs](https://adept.ai)
+- 🤝 Making ML research more accessible through [the Daily Ink](/blog/tdi)
+- ✍️ [Reading](https://goodreads.com/amks) and [writing](/blog)
+- 🏋️ Lifting and getting [swole](https://fit.amks.me)
+
+In a past life, I did a bunch of [other things](/about). Drop me a line at `hi@amks.me` if you ever want to chat, or grab some time off my calendar [here](https://calendly.com/asomani).
+<!--
 - **Helping build the Berkeley startup ecosystem**: Over the last year, I've run  Berkeley's Student Entrepreneurship [Program](https://step.berkeley.edu), Cal Hacks's [Fellowship](https://fellowship.calhacks.io) Program, and Berkeley's [BEGIN](https://begin.berkeley.edu) Innovation program. If you want to dive into startups and entrepreneurship, drop me a line!
 
 - **Teaching the next generation of computer scientists**: I've taught Berkeley's [Introduction to CS](https://cs61a.org) and [Data Structures](https://datastructur.es) classes. I've also founded the Introduction to Full Stack Development [student-run](https://fullstackdecal.com) course.
@@ -19,4 +26,4 @@ I'm currently studying Computer Science and Economics at the University of Calif
 You can see what I've been up to this semester [here](/about). Drop me a line at `hi@amks.me` if you ever want to chat, or grab some time off my calendar [here](https://go.amks.me/book).
 
 
-
+ -->

@@ -7,7 +7,7 @@
 <div class="main">
 <div class="post">
   <header class="post__header">
-    <h1 class="post__title"><span class="fancy">Hi, </span>{{.Params.Heading}}</h1>
+    <h1 class="post__title"><span class="fancy">Hi, </span>{{.Params.Heading}}<span class="hand">👋</span></h1>
   </header>
   <article class="post__content">
     {{ .Content }}
@@ -16,7 +16,7 @@
     {{ end }}
   </article>
   <br>
-  <div id="song"></div>
+  <!-- <div id="song"></div> -->
   <!-- {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}} -->
 <!-- </div>
 {{ .TableOfContents }}

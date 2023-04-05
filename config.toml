@@ -35,25 +35,11 @@ copyright = "amk © 2020"
     weight = "30"
 
 [[menu.main]]
-    identifier = "changelog"
-    name = "changelog"
-    title = "changelog"
-    url = "/changelog"
-    weight = "50"
-
-[[menu.main]]
   identifier = "blog"
   name = "blog"
   title = "Blog"
   url = "/blog"
   weight = "100"
-
-[[menu.main]]
-  identifier = "projects"
-  name = "projects"
-  title = "Projects"
-  url = "/s/projects"
-  weight = "50"
 
 [[menu.main]]
   identifier = "resume"

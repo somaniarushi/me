@@ -475,6 +475,12 @@ pre[class*="language-"] {
   color: #005cc5
 }
 
+#song {
+  font-size: 0.95rem;
+  line-height: 1.7rem;
+  margin-top: 1.5rem;
+}
+
 .newsletter__container {
   padding: 3rem 0
 }

@@ -14,6 +14,7 @@
     {{ if or .Params.math .Site.Params.math }}
       {{ partial "math.html" . }}
     {{ end }}
+    <div id="song"></div>
   </article>
   {{ partial "tags.html" .}} {{ partial "post-pagination.html" .}}
 </div>
@@ -25,5 +26,6 @@
   <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
 </footer>
 {{ end }} {{ define "scripts" }}
+<script src="/js/song.js"></script>
 <script src="/vendor/prism/prism.js"></script>
 {{ end }}
