@@ -24,8 +24,3 @@ What hurts me most is when people waste their time doing things that they don’
 Lots of work! AI as a whole is in its infancy, and I'm excited to be in the thick of it. I'm primarly interested in moving AI from its current realm of ability to a realm of _utility_. This means working on inference speed, network optimizations, serving at scale, improved user interfaces, and more.
 
 I'm really grateful to the Adept team, and really excited for what the future holds! I will continue writing here, and the Daily Ink will continue going out weekly starting June. I will also continue building projects on the side. My personal [writer site](https://writer.amks.me) is the best place to follow those. If you're in San Francisco, drop me a line and I'll brew you some ☕️.
-
-
-<!--
-As humans, I think it is our right, and perhaps [our duty](https://nat.dev), as expressions of the universe, to 1) understand it further and 2) to improve ourselves.
--->
