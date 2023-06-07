@@ -5,19 +5,20 @@
   "main": "index.js",
   "scripts": {
     "serve": "hugo serve",
+    "build": "hugo",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/somaniarushi/blog.git"
+    "url": "git+https://github.com/somaniarushi/me.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/somaniarushi/blog/issues"
+    "url": "https://github.com/somaniarushi/me/issues"
   },
-  "homepage": "https://github.com/somaniarushi/blog#readme",
+  "homepage": "https://github.com/somaniarushi/me#readme",
   "dependencies": {
     "hugo-cli": "^0.11.0",
     "jquery": "^3.5.1",

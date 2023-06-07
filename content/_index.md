@@ -7,7 +7,7 @@ note: "From AMKS with ❤️"
 
 Welcome to my little nook of the internet. A little bit about me:
 
-- 📓 Studied Computer Science at [UC Berkeley]()
+- 📓 Studied Computer Science at [UC Berkeley](/s/classes)
 - 🤖 Building the future of automation as a Research Engineer @ [Adept AI Labs](https://adept.ai)
 - 🤝 Making ML research more accessible through [the Daily Ink](/blog/tdi)
 - ✍️ [Reading](https://goodreads.com/amks) and [writing](/blog)
