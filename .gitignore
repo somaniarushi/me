@@ -42,3 +42,4 @@ public/
 .hugo_build.lock
 .obsidian/
 content/blog/.obsidian/
+.lsd
