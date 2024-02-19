@@ -8,6 +8,7 @@ note: "From AMKS with ❤️"
 ## **You've reached the home screen.**
 
 A bit about me:
+
 - 🤖 Building the future of AI agents as a Research Engineer @ [Adept AI Labs](https://adept.ai)
 
 - 📓 Studied Computer Science at [UC Berkeley](/s/classes)
