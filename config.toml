@@ -21,33 +21,18 @@ copyright = "amk © 2020"
 # DONT OVERRIDE #
 
 [[menu.main]]
-    identifier = "home"
-    name = "home"
+    identifier = "intro screen"
+    name = "intro screen"
     title = "Home"
     url = "/"
     weight = "25"
 
 [[menu.main]]
-    identifier = "about"
-    name = "about me"
+    identifier = "pause menu"
+    name = "pause menu"
     title = "About"
-    url = "/about"
+    url = "https://dailyink.notion.site/pause-menu-a46c3370e4b94afeb922739b63a0e4f1?pvs=4"
     weight = "30"
-
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
-  weight = "100"
-
-[[menu.main]]
-  identifier = "resume"
-  name = "resume"
-  title = "Resume"
-  url = "/resume.pdf"
-  weight = "50"
-
 
 preserveTaxonomyNames = true
 disableToc = "false"

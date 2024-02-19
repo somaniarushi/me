@@ -18,8 +18,8 @@ input[type=email] {
 
 html,
 body {
-  background-color: #fff;
-  color: #111;
+  background-color: #111;
+  color: #fff;
   height: 100%
 }
 
@@ -179,7 +179,7 @@ pre code {
   padding: 0 1.5rem;
   position: fixed;
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
   z-index: 2;
 }
 
@@ -200,7 +200,7 @@ pre code {
   position: absolute;
   width: 28px;
   height: 2px;
-  background: #111;
+  background: #fff;
   top: calc(50% - 2px / 2);
   left: calc(50% - 28px / 2);
   -webkit-transition: all 150ms ease-in;
@@ -247,7 +247,7 @@ pre code {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background: #fff;
+  background: #111;
   visibility: hidden;
   z-index: 1;
   left: 20px;
@@ -321,11 +321,11 @@ pre code {
 }
 
 .nav__list a.active {
-  color: #111
+  color: #cecece;
 }
 
 .nav__list a:hover {
-  color: #111
+  color: #cecece;
 }
 
 @media screen and (min-width:800px) {
@@ -680,7 +680,7 @@ pre[class*="language-"] {
   /* padding-bottom: 1px; */
   /* border-radius: 2px; */
   text-decoration: none;
-  color: rgba(10, 106, 161, 0.767);
+  color: #9ac1ee;
 }
 
 .post__content a:hover {
@@ -695,7 +695,7 @@ pre[class*="language-"] {
 }
 
 .post__content mark {
-  background-color: rgba(248, 227, 106, 0.418);
+  /* background-color: rgba(248, 227, 106, 0.418); */
   padding: 3px 7px;
   border-radius: 2px;
 }
@@ -738,7 +738,7 @@ pre[class*="language-"] {
 .note code {
   font-size: 12px;
   color: #717171;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 .note code:before,
@@ -880,7 +880,7 @@ p.warning a {
 footer {
   text-align: center;
   padding: 0 1.5rem;
-  background: #ffffff;
+  background: #111;
 }
 
 footer p {
@@ -952,7 +952,7 @@ footer p {
 }
 
 .fancy {
-  color: rgba(0, 162, 255, 0.801)
+  color: rgb(118, 198, 244)
 }
 
 #TableOfContents li:first-child{
