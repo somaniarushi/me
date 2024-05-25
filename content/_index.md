@@ -8,8 +8,11 @@ note: "From AMKS with ❤️"
 <!-- ## **You've reached the home screen.** -->
 
 A bit about me:
+
 - 🤖 Building AI agents as a Research Engineer @ [Adept AI Labs](https://adept.ai)
+
 - 📓 Studied Computer Science and worked on ML-augmented programming tools at UC Berkeley
+
 - 🤝 Making ML research more accessible through [the Daily Ink](/blog/tdi)
 
 
