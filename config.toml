@@ -28,11 +28,33 @@ copyright = "amk © 2020"
     weight = "25"
 
 [[menu.main]]
-    identifier = "pause menu"
-    name = "pause menu"
-    title = "About"
-    url = "https://dailyink.notion.site/pause-menu-a46c3370e4b94afeb922739b63a0e4f1?pvs=4"
+    identifier = "storyline"
+    name = "storyline"
+    title = "Storyline"
+    url = "https://dailyink.notion.site/quest-log-6e5c31ee6c9747cc98db5fc73a007302"
     weight = "30"
+
+
+[[menu.main]]
+    identifier = "writings"
+    name = "writings"
+    title = "Writings"
+    url = "https://dailyink.notion.site/Personal-Blog-e63f8119582841ca87acf13b70a51317"
+    weight = "30"
+
+[[menu.main]]
+    identifier = "the daily ink"
+    name = "the daily ink"
+    title = "TDI"
+    url = "https://dailyink.notion.site/the-daily-ink-d4c4144fd8c54779bf276b0e32d3622e"
+    weight = "30"
+
+[[menu.main]]
+    identifier = "personal projects"
+    name = "personal projects"
+    title = "personal projects"
+    url = "https://dailyink.notion.site/Research-Logs-e038beb1e36241d3aa52e608d682ff32"
+    weight = "50"
 
 preserveTaxonomyNames = true
 disableToc = "false"
