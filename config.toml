@@ -56,6 +56,13 @@ copyright = "amk © 2020"
     url = "https://dailyink.notion.site/Research-Logs-e038beb1e36241d3aa52e608d682ff32"
     weight = "50"
 
+ [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "resume"
+    url = "/resume.pdf"
+    weight = "60"
+
 preserveTaxonomyNames = true
 disableToc = "false"
 
