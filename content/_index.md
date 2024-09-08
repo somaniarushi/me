@@ -9,11 +9,11 @@ note: "From AMKS with ❤️"
 
 A bit about me:
 
-- 🤖 Building AI agents as a Research Engineer @ [Adept AI Labs](https://adept.ai)
+- 🤖 RL + Agents at @ Amazon AGI.
 
 - 📓 Studied Computer Science and worked on ML-augmented programming tools at UC Berkeley
 
 - 🤝 Making ML research more accessible through [the Daily Ink](/blog/tdi)
 
 
-👉 See more on the [pause menu](https://dailyink.notion.site/pause-menu-a46c3370e4b94afeb922739b63a0e4f1?pvs=4) or drop me a line at hi@amks.me if you ever want to chat.
+👉 See more on the [pause menu](https://dailyink.notion.site/pause-menu-a46c3370e4b94afeb922739b63a0e4f1) or drop me a line at hi@amks.me if you ever want to chat.
